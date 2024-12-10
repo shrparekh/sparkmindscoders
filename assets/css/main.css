@@ -566,7 +566,7 @@ img {
 
 .vw-btn-primary {
   background-color: transparent;
-  border: 1px solid #448C74;
+  border: 1px solid #1CCE41;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -590,7 +590,7 @@ img {
   color: var(--vw-color-common-white);
 }
 .vw-btn-primary i {
-  background-color: #448C74;
+  background-color: #1CCE41;
   width: 25px;
   height: 25px;
   border-radius: 100%;
@@ -1481,7 +1481,7 @@ Section Title CSS
   position: relative;
 }
 .section-title p a {
-  color: #448C74;
+  color: #1CCE41;
 }
 .section-title .section-subtitle {
   font-size: 12px;
@@ -1928,7 +1928,7 @@ Banner CSS
   width: 376px;
   height: 376px;
   border-radius: 50%;
-  background: linear-gradient(260deg, #448C74 0%, rgba(115, 67, 210, 0) 100%);
+  background: linear-gradient(260deg, #1CCE41 0%, rgba(115, 67, 210, 0) 100%);
   -webkit-filter: blur(150px);
   filter: blur(200px);
   margin-left: -5%;
@@ -2110,7 +2110,7 @@ Banner CSS
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid #448C7433;
+  border: 1px solid #1CCE4133;
   border-radius: 50%;
   margin-top: 15px;
 }
@@ -2183,14 +2183,14 @@ Banner Area 3 CSS
   background-size: contain;
   background-repeat: no-repeat;
   /* padding-right: 70px; */
-
+  padding-top: 50px;
   padding-bottom: 120px;
   height: 100%;
-  margin-top: -30px;
+  /* margin-top: -30px; */
   
 }
 .banner-area-3 .row {
-  min-height: 715px;
+  min-height: 500px;
 }
 
 
@@ -2953,6 +2953,14 @@ About Section CSS
   text-transform: uppercase;
   margin-bottom: 15px;
 }
+.section-title .section-subtitle span{
+  color: #1CCE41;
+  font-weight: 700;
+}
+.about-titles .about-subtitle span{
+  color: #1CCE41;
+  font-weight: 700;
+}
 .about-titles .about-subtitle img {
   display: block;
   margin-top: 15px;
@@ -3285,7 +3293,7 @@ About Section CSS
 .team-horizontal .team-hori-thumb img {
   width: 110px;
   height: 110px;
-  border: 1px solid #448C74;
+  border: 1px solid #1CCE41;
   border-radius: 100%;
   padding: 8px;
 }
@@ -3345,7 +3353,7 @@ About Section CSS
 }
 .about-img-right .icon-arrow-tera {
   font-size: 68px;
-  color: #448C74;
+  color: #1CCE41;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px) {
   .about-img-right .about-round-shape-wrap {
@@ -3406,7 +3414,7 @@ Home About 2 CSS
   content: "";
 }
 .section-title-about-2 .section-heading::after {
-  background-color: #448C74;
+  background-color: #1CCE41;
   width: 145px;
   height: 1px;
   position: absolute;
@@ -3427,6 +3435,7 @@ Home About 2 CSS
 .section-title-about-2 .section-title-text p {
   padding-left: 60px;
   padding-top: 15px;
+  text-align: justify;
 }
 
 .about-area-2 {
@@ -3692,7 +3701,8 @@ Home About 2 CSS
   text-align: center;
 }
 .big-heading-stroke .stroke-heading {
-  -webkit-text-stroke: 1px rgba(187, 187, 187, 0.3019607843);
+  /* -webkit-text-stroke: 1px rgba(187, 187, 187, 0.3019607843); */
+  -webkit-text-stroke: 1px #1CCE41;
   -webkit-text-fill-color: transparent;
 }
 .big-heading-stroke .thin-heading {
@@ -3788,7 +3798,7 @@ ul.achievement-equations li:last-child {
 ul.achievement-equations li .achievement-count {
   font-size: 40px;
   font-weight: 700;
-  color: #448C74;
+  color: #1CCE41;
 }
 ul.achievement-equations li .achievement-title {
   font-size: 14px;
@@ -3917,7 +3927,7 @@ Award Area CSS
 }
 
 .progress-bar {
-  background: #448C74;
+  background: #1CCE41;
   -webkit-box-shadow: none;
           box-shadow: none;
   position: relative;
@@ -4087,8 +4097,8 @@ Portfolio CSS
   margin-top: 20px;
 }
 .vw-btn-primary:hover {
-  background-color: #448C74;
-  border-color: #448C74;
+  background-color: #1CCE41;
+  border-color: #1CCE41;
 }
 .portfolio-card-wide.style-2 .portfolio-card-content {
   padding-left: 0;
@@ -4478,7 +4488,7 @@ Team Area CSS
   padding-left: 25px;
 }
 .team-member-list .single-team .team-member-designation::before {
-  background-color: #448C74;
+  background-color: #1CCE41;
   width: 10px;
   height: 10px;
   position: absolute;
@@ -4540,7 +4550,7 @@ Team Area CSS
           clip-path: circle(100px at 50% 50%);
 }
 .team-member-list .single-team:hover .team-member-name {
-  -webkit-text-stroke: 1px #448C74;
+  -webkit-text-stroke: 1px #1CCE41;
   -webkit-text-fill-color: transparent;
 }
 .team-member-list .single-team:hover .team-social-icons {
@@ -4682,7 +4692,7 @@ Team Area 2 CSS
           transform: scaleY(0);
 }
 .team-single .team-member-designation::before {
-  background-color: #448C74;
+  background-color: #1CCE41;
   width: 10px;
   height: 10px;
   position: absolute;
@@ -4768,7 +4778,7 @@ Video CSS
 }
 .video-play-btn .video-play-icon {
   font-size: 20px;
-  color: #448C74;
+  color: #1CCE41;
   display: inline-block;
   margin-right: 10px;
 }
@@ -5389,18 +5399,18 @@ Service Area 1 CSS
   position: relative;
 }
 .service-list ul li a:hover {
-  -webkit-text-stroke: 1px #448C74;
+  -webkit-text-stroke: 1px #1CCE41;
   -webkit-text-fill-color: transparent;
 }
 .service-list ul li a span {
   display: inline-block;
   margin-right: 10px;
-  -webkit-text-stroke: 1px #448C74;
+  -webkit-text-stroke: 1px #1CCE41;
   -webkit-text-fill-color: transparent;
 }
 .service-list ul li a:hover span {
   -webkit-text-stroke: unset;
-  -webkit-text-fill-color: #448C74;
+  -webkit-text-fill-color: #1CCE41;
 }
 .service-list ul li .services-reel-image {
   position: absolute;
@@ -5501,7 +5511,7 @@ Service Area 1 CSS
 
 .service-encourage-title {
   text-align: center;
-  margin-top: 105px;
+  /* margin-top: 10px; */
   margin-bottom: 60px;
 }
 .service-encourage-title h2 {
@@ -5547,7 +5557,7 @@ Service Area 1 CSS
   content: "";
   position: absolute;
   width: 70%;
-  border-top: 1px solid #448C744D;
+  border-top: 1px solid #1CCE414D;
 }
 .counter-section {
   display: -webkit-box;
@@ -5566,7 +5576,7 @@ Service Area 1 CSS
 .single-counterup .counterup-number {
   font-size: 150px;
   font-weight: bold;
-  -webkit-text-stroke: 1px #448C74;
+  -webkit-text-stroke: 1px #1CCE41;
   -webkit-text-fill-color: transparent;
 }
 .single-counterup .counterup-title {
@@ -5622,7 +5632,7 @@ Service Area 2 CSS
   padding-left: 5px;
 }
 .service-single .service-number {
-  -webkit-text-stroke: 1px #448C74;
+  -webkit-text-stroke: 1px #1CCE41;
   -webkit-text-fill-color: transparent;
   font-size: 120px;
   font-weight: 700;
@@ -5662,7 +5672,7 @@ Service Area 3 CSS
 }
 .service-list.style-3 ul li a .service-icon {
   margin-right: 70px;
-  color: #448C74;
+  color: #1CCE41;
 }
 .service-list.style-3 ul li a span {
   float: right;
@@ -5801,6 +5811,11 @@ Clients Section CSS
   display: flex;
   justify-content: center;
   margin-bottom: 15px;
+  position: absolute;
+  bottom: 14%;
+  left: 28%;
+  color: #1CCE41;
+  font-weight: 500;
 }
 .p_relative{
   position: relative;
@@ -5916,7 +5931,7 @@ Clients Section CSS
 }
 
 .single-client {
-  background-color: #ddd;
+  background-color: #1cce41;
   background-size: cover;
   background-position: bottom left;
   background-repeat: no-repeat;
@@ -5948,6 +5963,7 @@ Clients Section CSS
   height: 100%;
   content: "";
 }
+.single-client 
 .single-client span {
   background-color: #222222;
   width: 42px;
@@ -5973,6 +5989,13 @@ Clients Section CSS
   align-items: center;
   justify-content: center;
   height: 100%;
+}
+.single-client .single-client-inner .single-client-block .single-client-img img{
+  width: 90px;
+  position: absolute;
+    top: 20px;
+    left: 23%;
+
 }
 .single-client:nth-child(4) {
   margin-top: -55px;
@@ -6193,7 +6216,7 @@ Contact Area CSS
 ----------------------------------------*/
 .contact-area {
   position: relative;
-  padding: 275px 0;
+  padding: 155px 0;
 }
 .contact-area::before {
   background: -webkit-gradient(linear, left top, left bottom, color-stop(13.07%, #131313), color-stop(49.93%, rgba(0, 0, 0, 0)), color-stop(84.9%, #131313));
@@ -6385,7 +6408,7 @@ Footer CSS
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px) {
   .footer-area {
-    padding-left: 125px;
+    /* padding-left: 125px; */
   }
 }
 
@@ -6421,7 +6444,7 @@ Footer CSS
   text-transform: uppercase;
 }
 .footer-widget .footer-widget-title::after {
-  background-color: #448c74;
+  background-color: #1CCE41;
   width: 37px;
   height: 3px;
   content: "";
@@ -6603,7 +6626,7 @@ Footer CSS
   height: 4px;
   width: 100%;
   position: relative;
-  background: #448C74;
+  background: #1CCE41;
   border-radius: 10px;
   cursor: pointer;
   left: 0;
@@ -6649,7 +6672,7 @@ Footer CSS
 .testimonial_three_q {
   width: 46px;
   height: 46px;
-  background: #448C74;
+  background: #1CCE41;
   position: absolute;
   display: flex;
   align-items: center;
@@ -7193,3 +7216,46 @@ p.text__three {
 .pb-120{
   padding-bottom: 120px;
 }
+/* @keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes zoomIn {
+  from {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/* Applying animations */
+.animate-fade {
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+.animate-slide {
+  animation: slideIn 1.5s ease-in-out;
+}
+
+.animate-zoom {
+  animation: zoomIn 1.5s ease-in-out;
+} 
