@@ -1695,7 +1695,8 @@ Header 3 CSS
   }
   .header-area-3 .header-left {
     margin: 0;
-    gap: 30px;
+    /* gap: 30px; */
+    gap: 2px;
   }
   .header-area-3 .header-inner {
     gap: 30px;
@@ -4055,7 +4056,7 @@ Portfolio CSS
   font-family: var(--vw-ff-heading);
   font-size: 150px;
   font-weight: var(--vw-fw-bold);
-  -webkit-text-stroke: 1px #ffff;
+  -webkit-text-stroke: 1px #1CCE41;
   -webkit-text-fill-color: transparent;
   position: absolute;
   right: 10px;
@@ -6294,7 +6295,7 @@ Page Banner CSS
 ----------------------------------------*/
 .page-banner-area {
   position: relative;
-  padding: 300px 0px;
+  padding: 200px 0px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -6751,11 +6752,40 @@ Footer CSS
 .contact__page {
   background: #171415;
 }
+.address__block{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+}
+.address__block .flipFlop{
+  display: block;
+  margin: 20px auto;
+  width: 80px; /* Adjust to your needs */
+  animation: flipFlop 2s infinite ease-in-out;
+
+}
+@keyframes flipFlop {
+  0% {
+      transform: rotateY(0deg);
+  }
+  50% {
+      transform: rotateY(180deg);
+  }
+  100% {
+      transform: rotateY(0deg);
+  }
+}
+
 .address__block h4 {
   font-size: 28px;
   font-weight: 700;
   padding-bottom: 20px;
   margin: 0;
+  color: #009A00;
+}
+.address__block p a{
+  line-height: 2px;
 }
 
 /*** contact form error handling ***/
@@ -6868,7 +6898,7 @@ Footer CSS
 }
 .contact__are .contact__block {
   background: #2C2C2C;
-  padding: 60px;
+  padding: 47px;
 }
 
 @media (max-width: 991px) {
@@ -7259,3 +7289,11 @@ p.text__three {
 .animate-zoom {
   animation: zoomIn 1.5s ease-in-out;
 } 
+.contact-a{
+  border: 1px solid #2C2C2C;
+  padding: 20px;
+  border-radius: 20px;
+  background: #2C2C2C;
+  box-shadow: 2px 3px  #2C2C2C;
+  /* margin: 0px 20px; */
+}
