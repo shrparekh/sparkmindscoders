@@ -3907,8 +3907,11 @@ Award Area CSS
 .single-award .award-heading {
   font-size: 28px;
   margin-bottom: 27px;
+  color: #1CCE41;
 }
-
+.single-award .award-text p{
+  text-align: start;
+}
 .progress-area {
   background: #171415;
 }
@@ -7296,4 +7299,119 @@ p.text__three {
   background: #2C2C2C;
   box-shadow: 2px 3px  #2C2C2C;
   /* margin: 0px 20px; */
+}
+.about-bottom p{
+  text-align: justify;
+  padding: 0 25px 0px 0px;
+}
+.flip-card {
+  background-color: transparent;
+  width: 80%;
+  height: 400px;
+  perspective: 1000px;
+  margin: 0px 25px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 10px;
+}
+
+.flip-card-front {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+.flip-card-front::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+}
+.flip-card-front h2 {
+  font-size: 40px;
+  margin-bottom: 10px;
+  font-family: "Playfair Display", serif;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.flip-card-back {
+  background: #1CCE41;
+  color: white;
+  transform: rotateY(180deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.flip-card-back h2 {
+  font-family: "Playfair Display", serif;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.flip-card h2 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.flip-card p {
+  font-size: 16px;
+  line-height: 1.5;
+ text-align: justify;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+@media (max-width: 1100px) {
+  .flip-card {
+      width: 100%;
+      height: 500px;
+      margin: 0px 10px;
+    
+  }
+}
+@media (max-width: 900px) {
+  .flip-card {
+      width: 100%;
+      height: 500px;
+      margin: 0px 10px;
+    
+  }
+}
+
+
+@media (max-width: 800px) {
+  .flip-card {
+      width: 90%;
+      height: 450px;
+      margin: 20px;
+    
+  }
 }
