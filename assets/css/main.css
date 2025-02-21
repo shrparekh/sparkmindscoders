@@ -4268,10 +4268,11 @@ Portfolio Area 3 CSS
   display: inline-block;
 }
 .single-portfolio .single-portfolio-desc .portfolio-categories li a {
-  color: #ffffff;
+  color:#1CCE41;
 }
 .single-portfolio-desc .single-portfolio-title {
   font-size: 40px;
+  color: #fff;
 }
 .single-portfolio-desc .single-portfolio-title span {
   font-weight: 300;
@@ -4280,7 +4281,7 @@ Portfolio Area 3 CSS
   font-family: var(--vw-ff-heading);
   font-weight: 700;
   font-size: 150px;
-  -webkit-text-stroke: 1px #ffffff;
+  -webkit-text-stroke: 1px #1CCE41;
   -webkit-text-fill-color: transparent;
   position: absolute;
   top: 40px;
@@ -6885,7 +6886,7 @@ Footer CSS
   line-height: 29px;
   border-radius: 0;
   min-height: 60px;
-  color: #FFFFFF66 !important;
+  color: #e7e2e266 !important;
 }
 
 .contact__form .form-control:focus {
