@@ -439,6 +439,95 @@
           </div>
           <!--portfolio-area end-->
 
+
+
+
+          <div class="faq-area">
+            <div class="container">
+              <div class="row align-items-center">
+                <div class="col-lg-9">
+                  <div class="section-title faq-section-title">
+                    <h5 class="section-subtitle"><span>FAQs</span> 
+                      <img src="assets/images/about/subtitle-line.svg" alt="">
+                    </h5>
+                    <h3 class="section-heading">FREQUENTLY ASKED <br/> <span>QUESTIONS</span></h3>
+                    <span class="shadow-title">FAQs</span>
+                  </div>
+                </div>
+              
+              </div>
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="faq-accordion">
+                    <div class="faq-item">
+                      <button class="faq-question">What is website design and development?</button>
+                      <div class="faq-answer">
+                        <p>Web design and development refers to the overarching project of planning and building a website – while web design is more focused on the aesthetic layout and user experience (UX). Web development focuses on what goes on behind the scenes to make sure the website functions correctly.</p>
+                      </div>
+                    </div>
+                    <div class="faq-item">
+                      <button class="faq-question">How much does it cost to build a website?</button>
+                      <div class="faq-answer">
+                        <p>There is no fixed answer to this question as many things determine the cost of a website:</p>
+
+                        <ul>
+                            <li>Size</li>
+                            <li>Scale</li>
+                            <li>Template fees</li>
+                            <li>Web design and development agency fees</li>
+                            <li>Maintenance costs</li>
+                        </ul> <br>
+                        
+                        <p>If you’re looking to build a website, <strong>We</strong> can help design and develop one that’s tailored to the needs of your business. We’ll provide scalable solutions that match your budget to help boost your revenue, increase traffic, and maximise your ROI.</p>
+                      </div>
+                    </div>
+                    <div class="faq-item">
+                      <button class="faq-question">Do you offer website maintenance?</button>
+                      <div class="faq-answer">
+                        <p>Yes, we provide ongoing support and maintenance to ensure your website stays updated and secure.</p>
+                      </div>
+                    </div>
+                    <div class="faq-item">
+                      <button class="faq-question">Can you redesign an existing website?</button>
+                      <div class="faq-answer">
+                        <p>Absolutely! We can revamp your site for a modern look and improved functionality.</p>
+                      </div>
+                    </div>
+                    <div class="faq-item">
+                      <button class="faq-question">Do you work with WordPress or custom websites?</button>
+                      <div class="faq-answer">
+                        <p>We specialize in both WordPress and custom-built websites tailored to your needs.</p>
+                      </div>
+                    </div>
+
+
+                    <div class="faq-item">
+                      <button class="faq-question">What technologies do you use for web development?</button>
+                      <div class="faq-answer">
+                        <p>We utilize a range of technologies, including HTML5, CSS3, JavaScript, PHP, and popular content management systems (CMS) like WordPress.</p>
+                      </div>
+                    </div>
+                
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
         <!--contact-area start-->
         <div class="contact-area imageParallax" data-bg-image="assets/images/contact/contact-bg.jpg">
           <div class="container">
@@ -574,6 +663,21 @@
    <script src="assets/js/swiper-bundle.min.js"></script>
    <script src="assets/js/plugins.js"></script>
    <script src="assets/js/main.js"></script>
+
+   <script>
+    document.querySelectorAll(".faq-question").forEach(button => {
+      button.addEventListener("click", function() {
+        const faqItem = this.parentElement;
+        faqItem.classList.toggle("active");
+        const answer = faqItem.querySelector(".faq-answer");
+        if (answer.style.display === "block") {
+          answer.style.display = "none";
+        } else {
+          answer.style.display = "block";
+        }
+      });
+    });
+  </script>
 </body>
 
 

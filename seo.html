@@ -299,6 +299,94 @@
           <!--service-area end-->
 
 
+
+
+          <div class="faq-area">
+            <div class="container">
+              <div class="row align-items-center">
+                <div class="col-lg-9">
+                  <div class="section-title faq-section-title">
+                    <h5 class="section-subtitle"><span>FAQs</span> 
+                      <img src="assets/images/about/subtitle-line.svg" alt="">
+                    </h5>
+                    <h3 class="section-heading">FREQUENTLY ASKED <br/> <span>QUESTIONS</span></h3>
+                    <span class="shadow-title">FAQs</span>
+                  </div>
+                </div>
+              
+              </div>
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="faq-accordion">
+                    <div class="faq-item">
+                      <button class="faq-question">What is SEO, and why is it important?</button>
+                      <div class="faq-answer">
+                        <p>SEO (Search Engine Optimization) is the process of optimizing a website to improve its visibility on search engines like Google. It helps businesses attract organic traffic, increase brand awareness, and boost conversions by ranking higher in search results.</p>
+                      </div>
+                    </div>
+                    <div class="faq-item">
+                      <button class="faq-question">How long does it take to see results from SEO?</button>
+                      <div class="faq-answer">
+                        <p>SEO is a long-term strategy, and results can vary based on competition, industry, and the current state of your website. Typically, noticeable improvements can take 3 to 6 months, but ongoing efforts yield sustainable growth over time.</p>
+
+                       
+                      </div>
+                    </div>
+                    <div class="faq-item">
+                      <button class="faq-question">Do I need SEO if I already have a website?</button>
+                      <div class="faq-answer">
+                        <p>Yes! A website without SEO is like a shop without signage. SEO ensures your site is discoverable by potential customers and ranks higher in search engines, bringing in organic traffic and leads</p>
+                      </div>
+                    </div>
+                    <div class="faq-item">
+                      <button class="faq-question">What SEO services do you offer?</button>
+                      <div class="faq-answer">
+                        <p>On-Page SEO (Keyword Optimization, Meta Tags, Content Structuring)</p>
+                        <p>Technical SEO (Speed Optimization, Mobile Responsiveness, Site Architecture)</p>
+                        <p>Off-Page SEO (Backlink Building, Social Signals)</p>
+                        <p>Local SEO (Google My Business Optimization, Local Listings)</p>
+
+                        <p>Content Strategy (Blogs, SEO Copywriting)</p>
+                      </div>
+                    </div>
+                    <div class="faq-item">
+                      <button class="faq-question">How much does SEO cost?</button>
+                      <div class="faq-answer">
+                        <p>The cost of SEO depends on various factors such as website size, competition, and goals. We offer custom SEO packages designed to fit different budgets and ensure maximum ROI. Contact us for a tailored quote.</p>
+                      </div>
+                    </div>
+
+
+                    <div class="faq-item">
+                      <button class="faq-question">Can you help rank my website on Google’s first page?</button>
+                      <div class="faq-answer">
+                        <p>While no agency can guarantee #1 rankings, we implement proven white-hat SEO strategies to improve your website’s position and drive high-quality traffic over time.</p>
+                      </div>
+                    </div>
+                
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
          
 
         <!--contact-area start-->
@@ -436,6 +524,21 @@
    <script src="assets/js/swiper-bundle.min.js"></script>
    <script src="assets/js/plugins.js"></script>
    <script src="assets/js/main.js"></script>
+
+   <script>
+    document.querySelectorAll(".faq-question").forEach(button => {
+      button.addEventListener("click", function() {
+        const faqItem = this.parentElement;
+        faqItem.classList.toggle("active");
+        const answer = faqItem.querySelector(".faq-answer");
+        if (answer.style.display === "block") {
+          answer.style.display = "none";
+        } else {
+          answer.style.display = "block";
+        }
+      });
+    });
+  </script>
 </body>
 
 

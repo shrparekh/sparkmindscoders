@@ -299,6 +299,83 @@
           <!--service-area end-->
 
 
+
+          <div class="faq-area">
+            <div class="container">
+              <div class="row align-items-center">
+                <div class="col-lg-9">
+                  <div class="section-title faq-section-title">
+                    <h5 class="section-subtitle"><span>FAQs</span> 
+                      <img src="assets/images/about/subtitle-line.svg" alt="">
+                    </h5>
+                    <h3 class="section-heading">FREQUENTLY ASKED <br/> <span>QUESTIONS</span></h3>
+                    <span class="shadow-title">FAQs</span>
+                  </div>
+                </div>
+              
+              </div>
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="faq-accordion">
+                    <div class="faq-item">
+                      <button class="faq-question">What is graphic design, and why is it important for businesses?</button>
+                      <div class="faq-answer">
+                        <p>Graphic design is the art of creating visual content to communicate messages. It enhances brand identity, engages audiences, and builds credibility through logos, marketing materials, and digital graphics. A strong visual identity helps businesses stand out in a competitive market.</p>
+                      </div>
+                    </div>
+                    <div class="faq-item">
+                      <button class="faq-question">What graphic design services do you offer?</button>
+                      <div class="faq-answer">
+                        <p>Logo Design & Branding (Logos, Business Cards, Letterheads)</p>
+                        <p>Marketing Materials (Brochures, Flyers, Posters, Banners)</p>
+                        <p>Social Media Graphics (Instagram/Facebook Posts, Ads, Stories)</p>
+                        <p>Website & UI/UX Design (Landing Pages, Web Banners)</p>
+                        <p>Packaging & Print Design (Product Labels, Merchandise)</p>
+
+                       
+                      </div>
+                    </div>
+                    <div class="faq-item">
+                      <button class="faq-question">How much do graphic design services cost?</button>
+                      <div class="faq-answer">
+                        <p>The cost varies depending on the project type, complexity, and revisions required. We offer custom pricing to fit different budgets. Get in touch for a personalized quote.</p>
+                      </div>
+                    </div>
+                    <div class="faq-item">
+                      <button class="faq-question">How long does it take to complete a design project?</button>
+                      <div class="faq-answer">
+                        <p>Turnaround time depends on the project scope. Simple designs like social media posts may take 1-2 days, while branding and complex designs may take a week or more. We ensure timely delivery without compromising on quality.</p>
+                 
+                      </div>
+                    </div>
+                    <div class="faq-item">
+                      <button class="faq-question">Do you offer unlimited revisions?</button>
+                      <div class="faq-answer">
+                        <p>We provide a set number of revisions based on the selected package. Our focus is on ensuring client satisfaction while maintaining efficient design workflows.</p>
+                      </div>
+                    </div>
+
+
+                    <div class="faq-item">
+                      <button class="faq-question">Do you design graphics for both print and digital use?</button>
+                      <div class="faq-answer">
+                        <p>Yes! We design for both print (brochures, banners, business cards, packaging) and digital (social media, websites, email marketing visuals) to meet your marketing needs./p>
+                      </div>
+                    </div>
+                
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+
+
+
          
 
         <!--contact-area start-->
@@ -436,6 +513,20 @@
    <script src="assets/js/swiper-bundle.min.js"></script>
    <script src="assets/js/plugins.js"></script>
    <script src="assets/js/main.js"></script>
+   <script>
+    document.querySelectorAll(".faq-question").forEach(button => {
+      button.addEventListener("click", function() {
+        const faqItem = this.parentElement;
+        faqItem.classList.toggle("active");
+        const answer = faqItem.querySelector(".faq-answer");
+        if (answer.style.display === "block") {
+          answer.style.display = "none";
+        } else {
+          answer.style.display = "block";
+        }
+      });
+    });
+  </script>
 </body>
 
 
