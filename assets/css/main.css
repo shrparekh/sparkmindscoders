@@ -7552,3 +7552,22 @@ p.text__three {
   border-radius: 10px; /* Rounded edges */
   padding: 8px;
 }
+.kcresst-logo {
+  max-width: 75%;
+  border: 2px solid #4e4a4a;
+  border-radius: 20px;
+  box-shadow: 2px 3px 4px 3px rgba(255, 255, 255, 0.1);
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+  filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.2));
+  transition: transform 0.3sease-in-out;
+}
+
+.kcresst-logo:hover {
+  transform: scale(1.1); /* Slight zoom effect on hover */
+}
+.kcresst-content p{
+  text-align: justify;
+}
