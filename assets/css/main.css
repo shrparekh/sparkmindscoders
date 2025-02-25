@@ -1201,7 +1201,7 @@ body.loaded {
   overflow: hidden !important;
   height: 100% !important;
 }
-
+/* 
 .preloader {
   position: fixed;
   z-index: 10;
@@ -1226,21 +1226,22 @@ body.loaded {
 .preloader svg {
   position: absolute;
   top: 0;
-  width: 100vw;
+  width: 100%;
   height: 110vh;
   fill: var(--tj-black-2);
 }
 
 .preloader .preloader-heading .load-text {
-  font-size: 48px;
-  font-weight: 200;
-  letter-spacing: 15px;
+  font-size: 35px;
+  font-weight: 300;
+  letter-spacing: 12px;
   text-transform: uppercase;
   z-index: 20;
 }
 @media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
   .preloader .preloader-heading .load-text {
-    font-size: 24px;
+    font-size: 20px;
+    letter-spacing: 5px;
   }
 }
 
@@ -1299,7 +1300,48 @@ body.loaded {
   100% {
     opacity: 0;
   }
+} */
+.preloader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  inset: 0;
+  background-color: #000; /* Adjust to your theme */
+  z-index: 9999;
+  transition: opacity 0.5s ease, visibility 0.5s ease; /* Smooth fade-out */
 }
+.preloader.hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+.preloader-logo {
+  width: 200px; /* Adjust size as needed */
+  height: 200px;
+  animation: flip-flop 1.5s infinite ease-in-out;
+}
+
+/* Flip-flop animation */
+@keyframes flip-flop {
+  0% {
+    transform: rotateY(0deg);
+  }
+  50% {
+    transform: rotateY(180deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+body {
+  opacity: 1;
+  transition: opacity 0.5s ease;
+}
+
+body.loaded {
+  opacity: 1;
+}
+
 /* END: Preloader */
 /*==============================
   MEGIC CURSOR START
@@ -2370,12 +2412,13 @@ Banner Area 3 CSS
 @media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
   .banner-3-text {
     text-align: center;
+    top: 4px;
   }
   .banner-3-text .banner-title {
-    font-size: 48px;
+    font-size: 42px;
   }
   .banner-3-text .banner-sub-title {
-    font-size: 36px;
+    font-size: 32px;
   }
   .banner-3-text .banner-paragraph {
     margin-top: 0;
@@ -2389,6 +2432,12 @@ Banner Area 3 CSS
   .banner-3-text .award-icon {
     margin-bottom: 30px;
     display: none;
+  }
+  .banner-area-3{
+    padding-bottom:0px;
+  }
+  .about-balloon-img::before{
+    left:6px !important;
   }
 }
 @media (max-width: 575px) {
@@ -2414,6 +2463,11 @@ Banner Area 3 CSS
   }
 }
 
+@media (max-width: 400px){
+  .section-title .section-heading{
+    font-size: 27px;
+  }
+}
 
 
 
@@ -4096,6 +4150,7 @@ Portfolio CSS
 }
 .portfolio-card-wide .portfolio-card-content .portfolio-card-text {
   color: #ffffff;
+  text-align: justify;
 }
 .portfolio-card-wide .portfolio-card-content .vw-btn-primary {
   margin-top: 20px;
@@ -4315,6 +4370,7 @@ Portfolio Area 3 CSS
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+          transition: transform 0.3s ease-in-out;
 }
 .portfolio-more-btn a {
   width: 168px;
@@ -4332,6 +4388,11 @@ Portfolio Area 3 CSS
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+.portfolio-more-btn a:hover{
+  background-color: rgb(0, 154, 0,0.5);
+  border: 1px solid #009A00;
+  transform: translateY(-15px);
 }
 
 /**----------------------------------------
@@ -5505,7 +5566,7 @@ Service Area 1 CSS
     bottom: 12px;
   }
   .service-list ul li a {
-    font-size: 27px;
+    font-size: 25px;
   }
   .service-list ul li .services-reel-image {
     width: 200px;
@@ -5887,6 +5948,7 @@ Clients Section CSS
 
 .section-title-para {
   margin-top: 15px;
+  text-align: justify;
 }
 
 .section-title-btn {
@@ -6046,11 +6108,15 @@ Clients Section CSS
   }
   .single-client span {
     background-color: #222222;
-    width: 32px;
-    height: 32px;
+    width: fit-content;
+    height: auto;
+    position: absolute;
+    top: -16px;
+    left: 0px;
+    font-size: 13px;
   }
   .single-client img {
-    width: 70px;
+    width: 60px !important;
   }
 }
 
@@ -6614,7 +6680,21 @@ Footer CSS
   margin-right: 25px;
 }
 
-
+@media (max-width: 500px){
+  .portfolios-area-3 .col-md-6:nth-child(odd) .single-portfolio {
+    margin-right: 0px;
+  }
+  .portfolios-area-3 .col-md-6:nth-child(even) .single-portfolio {
+    margin-top: 30px;
+    margin-left: 0px;
+  }
+  .single-portfolio-desc .single-portfolio-title{
+    font-size: 20px;
+  }
+  .single-portfolio .portfolio-number{
+    font-size: 50px;
+  }
+}
 .testimonial_slider{
   position: relative;
   overflow: hidden;
@@ -7299,7 +7379,20 @@ p.text__three {
   border-radius: 20px;
   background: #2C2C2C;
   box-shadow: 2px 3px  #2C2C2C;
-  /* margin: 0px 20px; */
+  /* margin: 10px 20px;
+  width: 80%; */
+  width: 32%;
+}
+@media (max-width: 900px){
+  .contact-a{
+    border: 1px solid #2C2C2C;
+    padding: 20px;
+    border-radius: 20px;
+    background: #2C2C2C;
+    box-shadow: 2px 3px  #2C2C2C;
+    margin: 10px 10%;
+    width: 80%;
+  }
 }
 .about-bottom p{
   text-align: justify;
@@ -7416,7 +7509,12 @@ p.text__three {
     
   }
 }
-
+@media (max-width: 500px){
+  .about-text-block-btn {
+    margin-left: 68px;
+  }
+  
+}
 
 
 

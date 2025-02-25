@@ -486,6 +486,16 @@ if (solarScrollTop != null) {
 
 
 	});
+  // document.addEventListener("DOMContentLoaded", () => {
+  //   const preloader = document.querySelector(".preloader");
+  //   const body = document.body;
+
+  //   // Simulate loading time
+  //   setTimeout(() => {
+  //     preloader.classList.add("hidden"); // Hide the preloader
+  //     body.classList.add("loaded"); // Show the page content
+  //   }, 2000); // Adjust the duration as needed (2 seconds here)
+  // });
       
     
 })(jQuery);
