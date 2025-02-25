@@ -518,18 +518,32 @@
    <script src="assets/js/plugins.js"></script>
    <script src="assets/js/main.js"></script>
    <script>
-    document.querySelectorAll(".faq-question").forEach(button => {
-      button.addEventListener("click", function() {
-        const faqItem = this.parentElement;
-        faqItem.classList.toggle("active");
-        const answer = faqItem.querySelector(".faq-answer");
-        if (answer.style.display === "block") {
-          answer.style.display = "none";
-        } else {
-          answer.style.display = "block";
+   document.addEventListener("DOMContentLoaded", function () {
+  document.querySelectorAll(".faq-question").forEach(button => {
+    button.addEventListener("click", function() {
+      const faqItem = this.parentElement;
+      const answer = faqItem.querySelector(".faq-answer");
+
+      // Close all other open answers
+      document.querySelectorAll(".faq-item").forEach(item => {
+        if (item !== faqItem) {
+          item.classList.remove("active");
+          item.querySelector(".faq-answer").style.display = "none";
         }
       });
+
+      // Toggle current FAQ answer
+      if (answer.style.display === "block") {
+        answer.style.display = "none";
+        faqItem.classList.remove("active");
+      } else {
+        answer.style.display = "block";
+        faqItem.classList.add("active");
+      }
     });
+  });
+});
+
   </script>
 </body>
 
