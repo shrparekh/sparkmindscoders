@@ -1,0 +1,22 @@
+after git clone run this cmd 
+
+cd admin/database/
+composer require phpmailer/phpmailer
+composer require vlucas/phpdotenv
+
+cd ..
+cd ..
+
+cd admin/service/
+composer require phpmailer/phpmailer
+composer require vlucas/phpdotenv
+composer require cloudinary/cloudinary_php
+composer require intervention/image
+
+cd ..
+cd ..
+
+
+cd email-temp/
+composer require phpmailer/phpmailer
+composer require vlucas/phpdotenv

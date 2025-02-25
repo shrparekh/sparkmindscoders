@@ -210,13 +210,16 @@
                                     <span class="shadow-title">Contact</span>
                                 </div>
                                 <div class="contact__form">
-                                    <form method="post" class="contact-activation" id="contact-form-mejor" novalidate="novalidate">
+                                    <form method="post" class="contact-activation" id="request_qoute_form" novalidate="novalidate">
                                         <div class="row">
                                             <div class="col-md-6 col-12">
                                                 <input type="text" class="form-control" name="name" id="name" placeholder="Full Name" autocomplete="name">
                                             </div>
                                             <div class="col-md-6 col-12">
                                                 <input type="email" class="form-control" name="email" id="email" placeholder="Email Address">
+                                            </div>
+                                            <div class="col-md-12 col-12">
+                                                <input type="text" class="form-control" name="phone" id="phone" placeholder="phone">
                                             </div>
                                             <div class="col-md-12 col-12">
                                                 <input type="text" class="form-control" name="subject" id="subject" placeholder="subject">
@@ -305,6 +308,74 @@
    <script src="assets/js/swiper-bundle.min.js"></script>
    <script src="assets/js/plugins.js"></script>
    <script src="assets/js/main.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script>
+    	$("#request_qoute_form").validate({
+		rules: {
+			name: { required: true },
+			email: { required: true, email: true },
+			phone: { required: true, minlength: 10, maxlength: 10, digits: true },
+			subject: { required: true },
+			message: { required: true }
+		},
+		messages: {
+			name: { required: "Please enter your Full Name" },
+			email: {
+				required: "Please enter your email address",
+				email: "Please enter a valid email address",
+			},
+			phone: {
+				required: "Please enter your phone number",
+				minlength: "Phone number must be exactly 10 digits",
+				maxlength: "Phone number must be exactly 10 digits",
+				digits: "Please enter a valid phone number with only digits",
+			},
+			subject: { required: "Please enter your subject" },
+			message: { required: "Please enter your Message" },
+		},
+		submitHandler: function (form, event) {
+			// Prevent the form's default submit action (page reload)
+			event.preventDefault();
+
+			// Show SweetAlert loader before the AJAX call starts
+			Swal.fire({
+				title: 'Submitting your request...',
+				text: 'Please wait a moment',
+				allowOutsideClick: false,
+				didOpen: () => {
+					Swal.showLoading(); // Show Swal loader
+				},
+			});
+
+			// Create FormData object
+			var formData = new FormData($(form)[0]);
+			$.ajax({
+				type: "POST",
+				url: "/email-temp/contactmail.php",
+				data: formData,
+				contentType: false, // Don't set contentType
+				processData: false, // Don't process data
+				success: function (message) {
+					// Close the loader when the request completes
+					Swal.close();
+
+					console.log(message);
+					if (message === "Mail has been sent successfully!") {
+						Swal.fire("Successful!", "Your message has been sent!", "success");
+						$(form).trigger("reset");
+					} else {
+						Swal.fire("Error", "There was an issue sending your message.", "error");
+					}
+				},
+				error: function (t) {
+					// Close the loader if an error occurs
+					Swal.close();
+					Swal.fire("Error", "Error submitting form: " + t.statusText, "error");
+				},
+			});
+		},
+	});
+  </script>
 </body>
 
 

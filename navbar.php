@@ -6,7 +6,7 @@
                   <div class="header-left">
                     <div class="logo">
                       <a href="/"><img
-                          src="assets/images/banner/Screenshot_2024-10-05_113516-removebg-preview.png" alt="sparkmindscoders"></a>
+                          src="/assets/images/banner/Screenshot_2024-10-05_113516-removebg-preview.png" alt="sparkmindscoders"></a>
                     </div>
                     <div class="menu-icon">
                       <a class="canva_expander nav-menu-link menu-button style-2" href="#"><i
@@ -17,21 +17,21 @@
                     <nav id="main-menus">
                       <ul class="list-none">
                         <li><a href="/">Home</a></li>
-                        <li><a href="about-us">About</a></li>
+                        <li><a href="/about-us">About</a></li>
                         <li class="has-dropdown current-menu-item">
                           <a href="/">Services</a>
                           <ul class="sub-menu">
                               <li class="current-menu-item">
-                                  <a href="website-development">Website Development</a>
+                                  <a href="/website-development">Website Development</a>
                               </li>
-                              <li><a href="graphic-design.html">Graphic Designs</a></li>
+                              <li><a href="/graphic-design">Graphic Designs</a></li>
                               <!-- <li><a href="digital-marketing.html">Digital Marketing</a></li> -->
-                              <li><a href="seo">Seo</a></li>
+                              <li><a href="/seo">Seo</a></li>
                           </ul>
                         </li>
-                        <li><a href="portfolio">Portfolio</a></li>
-                        <li><a href="blog">Blog</a></li>
-                        <li><a href="contact-us">Contact</a></li>
+                        <li><a href="/portfolio">Portfolio</a></li>
+                        <li><a href="/blog">Blog</a></li>
+                        <li><a href="/contact-us">Contact</a></li>
                       </ul>
                     </nav>
                   </div>

@@ -1,0 +1,36 @@
+[16-Jul-2024 09:51:34 UTC] PHP Warning:  Undefined variable $page_url in /home/ierixinf/public_html/IERIXWEBSITE/admin/service/tagsStore.php on line 31
+[16-Jul-2024 09:52:17 UTC] PHP Warning:  Undefined variable $page_url in /home/ierixinf/public_html/IERIXWEBSITE/admin/service/tagsStore.php on line 31
+[16-Jul-2024 09:52:38 UTC] PHP Warning:  Undefined variable $page_url in /home/ierixinf/public_html/IERIXWEBSITE/admin/service/tagsStore.php on line 31
+[16-Jul-2024 09:52:54 UTC] PHP Warning:  Undefined variable $page_url in /home/ierixinf/public_html/IERIXWEBSITE/admin/service/tagsStore.php on line 31
+[16-Jul-2024 09:53:34 UTC] PHP Warning:  Undefined variable $page_url in /home/ierixinf/public_html/IERIXWEBSITE/admin/service/tagsStore.php on line 31
+[16-Jul-2024 09:53:53 UTC] PHP Warning:  Undefined variable $page_url in /home/ierixinf/public_html/IERIXWEBSITE/admin/service/tagsStore.php on line 31
+[16-Jul-2024 11:37:51 UTC] PHP Warning:  Undefined array key 6 in /home/ierixinf/public_html/IERIXWEBSITE/admin/service/faqShow.php on line 58
+[16-Jul-2024 11:37:51 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'asc LIMIT 0, 10' at line 1 in /home/ierixinf/public_html/IERIXWEBSITE/admin/service/faqShow.php:73
+Stack trace:
+#0 /home/ierixinf/public_html/IERIXWEBSITE/admin/service/faqShow.php(73): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ierixinf/public_html/IERIXWEBSITE/admin/service/faqShow.php on line 73
+[16-Jul-2024 11:37:51 UTC] PHP Warning:  Undefined array key 6 in /home/ierixinf/public_html/IERIXWEBSITE/admin/service/faqShow.php on line 58
+[16-Jul-2024 11:37:51 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'desc LIMIT 0, 10' at line 1 in /home/ierixinf/public_html/IERIXWEBSITE/admin/service/faqShow.php:73
+Stack trace:
+#0 /home/ierixinf/public_html/IERIXWEBSITE/admin/service/faqShow.php(73): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ierixinf/public_html/IERIXWEBSITE/admin/service/faqShow.php on line 73
+[16-Jul-2024 11:37:51 UTC] PHP Warning:  Undefined array key 6 in /home/ierixinf/public_html/IERIXWEBSITE/admin/service/faqShow.php on line 58
+[16-Jul-2024 11:37:51 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'asc LIMIT 0, 10' at line 1 in /home/ierixinf/public_html/IERIXWEBSITE/admin/service/faqShow.php:73
+Stack trace:
+#0 /home/ierixinf/public_html/IERIXWEBSITE/admin/service/faqShow.php(73): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ierixinf/public_html/IERIXWEBSITE/admin/service/faqShow.php on line 73
+[16-Jul-2024 11:38:06 UTC] PHP Warning:  Undefined array key 6 in /home/ierixinf/public_html/IERIXWEBSITE/admin/service/faqShow.php on line 58
+[16-Jul-2024 11:38:06 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'asc LIMIT 0, 10' at line 1 in /home/ierixinf/public_html/IERIXWEBSITE/admin/service/faqShow.php:73
+Stack trace:
+#0 /home/ierixinf/public_html/IERIXWEBSITE/admin/service/faqShow.php(73): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ierixinf/public_html/IERIXWEBSITE/admin/service/faqShow.php on line 73
+[16-Jul-2024 11:38:48 UTC] PHP Warning:  Undefined array key 6 in /home/ierixinf/public_html/IERIXWEBSITE/admin/service/faqShow.php on line 58
+[16-Jul-2024 11:38:48 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'asc LIMIT 0, 100' at line 1 in /home/ierixinf/public_html/IERIXWEBSITE/admin/service/faqShow.php:73
+Stack trace:
+#0 /home/ierixinf/public_html/IERIXWEBSITE/admin/service/faqShow.php(73): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ierixinf/public_html/IERIXWEBSITE/admin/service/faqShow.php on line 73
