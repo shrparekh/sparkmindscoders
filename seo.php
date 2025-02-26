@@ -80,7 +80,7 @@
                 and new leads thanks to our work.
             </p>
             <div class="canvas-title">
-                <h4 class="title">Contact info</h4>
+                <h5 class="title">Contact info</h5>
             </div>
             <div class="footer-contact">
                 <ul>
@@ -96,7 +96,7 @@
         </div>
         <div class="offcanvas-share">
             <div class="canvas-title">
-                <h4 class="title">Social Icons</h4>
+                <h6 class="title">Social Icons</h6>
             </div>
             <ul>
               <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
@@ -119,22 +119,22 @@
     <ul class="list-none">
 
     
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About</a></li>
+      <li><a href="/">Home</a></li>
+      <li><a href="about-us">About</a></li>
       <li class="has-dropdown current-menu-item">
-        <a href="index.html">Services</a>
+        <a href="/">Services</a>
         <ul class="sub-menu">
             <li class="current-menu-item">
-                <a href="website-development.html">Website Development</a>
+                <a href="website-development">Website Development</a>
             </li>
             <li><a href="graphic-design.html">Graphic Designs</a></li>
             <!-- <li><a href="digital-marketing.html">Digital Marketing</a></li> -->
             <li><a href="index-3.html">Seo</a></li>
         </ul>
       </li>
-      <li><a href="portfolio.html">Portfolio</a></li>
-      <li><a href="blog.html">Blog</a></li>
-      <li><a href="contact.html">Contact</a></li>
+      <li><a href="portfolio">Portfolio</a></li>
+      <li><a href="blog">Blog</a></li>
+      <li><a href="contact-us">Contact</a></li>
     </ul>
   </nav>
 </div>
@@ -145,51 +145,7 @@
       <main id="primary" class="site-main">
 
         <!--header-area-start-->
-        <header id="header-sticky" class="header-area header-area-3">
-          <div class="container-fluid">
-            <div class="row">
-              <div class="col-12">
-                <div class="header-inner">
-                  <div class="header-left">
-                    <div class="logo">
-                      <a href="index.html"><img
-                          src="assets/images/banner/Screenshot_2024-10-05_113516-removebg-preview.png" alt="sparkmindscoders"></a>
-                    </div>
-                    <div class="menu-icon">
-                      <a class="canva_expander nav-menu-link menu-button style-2" href="#"><i
-                          class="icon-menu-icon-2"></i></a>
-                    </div>
-                  </div>
-                  <div class="mainmenu home__three d-lg-block d-none">
-                    <nav id="main-menus">
-                      <ul class="list-none">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li class="has-dropdown current-menu-item">
-                          <a href="index.html">Services</a>
-                          <ul class="sub-menu">
-                              <li class="current-menu-item">
-                                  <a href="website-development.html">Website Development</a>
-                              </li>
-                              <li><a href="graphic-design.html">Graphic Designs</a></li>
-                              <!-- <li><a href="digital-marketing.html">Digital Marketing</a></li> -->
-                              <li><a href="seo.html">Seo</a></li>
-                          </ul>
-                        </li>
-                        <li><a href="portfolio.html">Portfolio</a></li>
-                        <li><a href="blog.html">Blog</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                      </ul>
-                    </nav>
-                  </div>
-                  <div class="header-right">
-                    <a href="#" class="vw-btn-primary"><i class="icon-arrow-right"></i> Get In Touch</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </header>
+        <?php include("navbar.php") ?>
         <!--header-area-end-->
 
         <!--page-banner-area start-->
@@ -199,10 +155,10 @@
               <div class="col-12">
                 <div class="page-banner-title">
                   <ul class="breadcrumbs">
-                    <li><a href="index.html">Home</a></li>
+                    <li><a href="/">Home</a></li>
                     <li>SEO</li>
                   </ul>
-                  <h2 class="page-banner-heading">SEO</h2>
+                  <h5 class="page-banner-heading">SEO</h5>
                 </div>
               </div>
             </div>
@@ -223,9 +179,9 @@
                 <div class="about-text-block-3">
                   <div class="section-title section-title-about-2 about-title-3">
                     <h5 class="section-subtitle"><span>About service</span> <img src="assets/images/about/subtitle-line.svg" alt="sparkmindscoders"></h5>
-                    <h3 class="section-heading">SEARCH ENGINE OPTIMIZATION <span> in Mumbai</span></h3>
+                    <h1 class="section-heading">SEARCH ENGINE OPTIMIZATION <span> in Mumbai</span></h1>
                     <div class="section-title-text">
-                      <h4 class="secondery-heading"> <span>Driving Online Success with Expert SEO Solutions</span></h4>
+                      <h2 class="secondery-heading"> <span>Driving Online Success with Expert SEO Solutions</span></h2>
                       <p>Welcome to Spark Minds Coders, your trusted partner in achieving exceptional online visibility and business growth through expert Search Engine Optimization (SEO) services. We specialize in creating customized SEO strategies that help businesses rank higher on search engines, attract targeted traffic, and drive measurable results.
                       </p>
                       <p>As experienced SEO professionals, we understand the dynamic nature of search algorithms and digital trends. Our approach is data-driven, result-oriented, and tailored to your unique business goals. From in-depth keyword research and on-page optimization to high-quality link building and detailed analytics, we provide a comprehensive suite of SEO services that ensure your website stands out in the competitive digital landscape.</p>
@@ -257,7 +213,7 @@
                     <div class="service-single">
                       <span class="service-number">01</span>
                       <div class="service-single-inner">
-                        <h4 class="single-service-title"> <a href="#">Customized SEO Strategies</a> </h4>
+                        <h2 class="single-service-title"> <a href="#">Customized SEO Strategies</a> </h2>
                         <p>Every business is unique, and so are our SEO strategies. We create tailored plans to target your audience and meet your business objectives effectively.
                         </p>
                       </div>
@@ -398,13 +354,13 @@
             <div class="row">
               <div class="col-md-8">
                 <div class="contact-headings">
-                  <h2 class="heading-contact">Ready To Get</h2>
+                  <h4 class="heading-contact">Ready To Get</h4>
                   <h3 class="subheading-contact">Focused In touch</h3>
                 </div>
               </div>
               <div class="col-md-4">
                 <div class="portfolio-more-btn contact-arrow-btn">
-                  <a href="contact.html"><i class="icon-arrow-tera"></i></a>
+                  <a href="contact-us"><i class="icon-arrow-tera"></i></a>
                 </div>
               </div>
             </div>
@@ -414,72 +370,7 @@
 
       </main>
       <!--footer start-->
-      <footer class="footer-area footer-area-2">
-        <div class="container">
-          <div class="footer-top">
-            <div class="row">
-              <div class="col-lg-3 col-md-6">
-                <div class="footer-logo">
-                  <img src="assets/images/banner/Screenshot_2024-10-05_113516-removebg-preview.png" alt="sparkmindscoders">
-                </div>
-                <div class="footer-widget">
-                  <ul class="footer-social">
-                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                    <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
-                    <li><a href="#"><i class="fa-brands fa-pinterest"></i></a></li>
-                  </ul>
-                </div>
-              </div>
-              <div class="col-lg-3 col-md-6">
-                <div class="footer-widget">
-                  <h4 class="footer-widget-title">Navigation</h4>
-                  <ul class="footer-widget-menu">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a href="blog.html">Blog</a></li>
-                    <li><a href="contact.html">Contact Us</a></li>
-                  </ul>
-                </div>
-              </div>
-              
-              <div class="col-lg-3 col-md-6">
-                <div class="footer-widget">
-                  <h4 class="footer-widget-title">Services</h4>
-                  <ul class="footer-widget-menu">
-                    <li><a href="website-development.html">Website Development</a></li>
-                    <li><a href="graphic-design.html">Graphice Designing</a></li>
-                    <!-- <li><a href="#">Digital Marketing</a></li> -->
-                    <li><a href="seo.html">Seo</a></li>
-                  </ul>
-                 
-                </div>
-              </div>
-              <div class="col-lg-3 col-md-6">
-                <div class="footer-widget">
-                  <h4 class="footer-widget-title">Contact</h4>
-                  <ul class="footer-contact-list">
-                    <li><a href="tel:+91 79777 91583">+91 79777 91583</a></li>
-                    <li><a href="tel:+91 87792 39431">+91 87792 39431</a></li>
-                    <li><a href="mailto:sparkmindscoders@gmail.com">sparkmindscoders@gmail.com</a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="footer-bottom">
-            <div class="container">
-              <div class="row">
-                <div class="col-12">
-                  <div class="footer-copyright">
-                    <p>2025 &copy; All Right Reserved by <a href="#">SparkMindsCoders</a></p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </footer>
+      <?php include("footer.php") ?>
       <!--footer-end-->
     </div>
   </div>

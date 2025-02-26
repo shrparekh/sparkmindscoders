@@ -119,22 +119,22 @@
     <ul class="list-none">
 
     
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About</a></li>
+      <li><a href="/">Home</a></li>
+      <li><a href="about-us">About</a></li>
       <li class="has-dropdown current-menu-item">
-        <a href="index.html">Services</a>
+        <a href="/">Services</a>
         <ul class="sub-menu">
             <li class="current-menu-item">
-                <a href="website-development.html">Website Development</a>
+                <a href="website-development">Website Development</a>
             </li>
             <li><a href="graphic-design.html">Graphic Designs</a></li>
             <!-- <li><a href="digital-marketing.html">Digital Marketing</a></li> -->
             <li><a href="index-3.html">Seo</a></li>
         </ul>
       </li>
-      <li><a href="portfolio.html">Portfolio</a></li>
-      <li><a href="blog.html">Blog</a></li>
-      <li><a href="contact.html">Contact</a></li>
+      <li><a href="portfolio">Portfolio</a></li>
+      <li><a href="blog">Blog</a></li>
+      <li><a href="contact-us">Contact</a></li>
     </ul>
   </nav>
 </div>
@@ -145,51 +145,7 @@
       <main id="primary" class="site-main">
 
         <!--header-area-start-->
-        <header id="header-sticky" class="header-area header-area-3">
-          <div class="container-fluid">
-            <div class="row">
-              <div class="col-12">
-                <div class="header-inner">
-                  <div class="header-left">
-                    <div class="logo">
-                      <a href="index.html"><img
-                          src="assets/images/banner/Screenshot_2024-10-05_113516-removebg-preview.png" alt="sparkmindscoders"></a>
-                    </div>
-                    <div class="menu-icon">
-                      <a class="canva_expander nav-menu-link menu-button style-2" href="#"><i
-                          class="icon-menu-icon-2"></i></a>
-                    </div>
-                  </div>
-                  <div class="mainmenu home__three d-lg-block d-none">
-                    <nav id="main-menus">
-                      <ul class="list-none">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li class="has-dropdown current-menu-item">
-                          <a href="index.html">Services</a>
-                          <ul class="sub-menu">
-                              <li class="current-menu-item">
-                                  <a href="website-development.html">Website Development</a>
-                              </li>
-                              <li><a href="graphic-design.html">Graphic Designs</a></li>
-                              <!-- <li><a href="digital-marketing.html">Digital Marketing</a></li> -->
-                              <li><a href="seo.html">Seo</a></li>
-                          </ul>
-                        </li>
-                        <li><a href="portfolio.html">Portfolio</a></li>
-                        <li><a href="blog.html">Blog</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                      </ul>
-                    </nav>
-                  </div>
-                  <div class="header-right">
-                    <a href="#" class="vw-btn-primary"><i class="icon-arrow-right"></i> Get In Touch</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </header>
+        <?php include("navbar.php") ?>
         <!--header-area-end-->
 
         <!--page-banner-area start-->
@@ -199,7 +155,7 @@
               <div class="col-12">
                 <div class="page-banner-title">
                   <ul class="breadcrumbs">
-                    <li><a href="index.html">Home</a></li>
+                    <li><a href="/">Home</a></li>
                     <li>Website Development</li>
                   </ul>
                   <h3 class="page-banner-heading">Website Develoment</h3>
@@ -337,7 +293,7 @@
                             displayed efficiently. Ideal for portfolios, business info, and landing pages. Our static
                             sites offer speed, security, and simplicity, ensuring a seamless user experience.</p>
                         </div>
-                        <a href="contact.html" class="vw-btn-primary"><i class="icon-arrow-right"></i>Contact Us</a>
+                        <a href="contact-us" class="vw-btn-primary"><i class="icon-arrow-right"></i>Contact Us</a>
                       </div>
                     </div>
                     <div class="portfolio-card-wide style-2">
@@ -357,7 +313,7 @@
                             interfaces. We create data-driven web solutions that are responsive, fast, and customizable.
                           </p>
                         </div>
-                        <a href="contact.html" class="vw-btn-primary"><i class="icon-arrow-right"></i>Contact Us</a>
+                        <a href="contact-us" class="vw-btn-primary"><i class="icon-arrow-right"></i>Contact Us</a>
                       </div>
                       <div class="portfolio-card-thumb">
                         <a href="#"><img class="imageParallax3" src="assets/images/spark/dynamic-web.png" alt="sparkmindscoders"></a>
@@ -385,7 +341,7 @@
                             designs. We build tailored online stores that enhance the customer shopping experience and
                             drive revenue growth.</p>
                         </div>
-                        <a href="contact.html" class="vw-btn-primary"><i class="icon-arrow-right"></i>Contact Us</a>
+                        <a href="contact-us" class="vw-btn-primary"><i class="icon-arrow-right"></i>Contact Us</a>
                       </div>
                     </div>
                     <div class="portfolio-card-wide style-2">
@@ -405,7 +361,7 @@
                             designs. We build tailored online stores that enhance the customer shopping experience and
                             drive revenue growth.</p>
                         </div>
-                        <a href="contact.html" class="vw-btn-primary"><i class="icon-arrow-right"></i>Contact Us</a>
+                        <a href="contact-us" class="vw-btn-primary"><i class="icon-arrow-right"></i>Contact Us</a>
                       </div>
                       <div class="portfolio-card-thumb">
                         <a href="#"><img class="imageParallax3" src="assets/images/spark/wordpress-web.png" alt="sparkmindscoders"></a>
@@ -432,7 +388,7 @@
                             Manage customer data, update content effortlessly, and automate operations. Our CRM/CMS
                             solutions are user-friendly, scalable, and tailored to meet your business needs.</p>
                         </div>
-                        <a href="contact.html" class="vw-btn-primary"><i class="icon-arrow-right"></i>Contact Us</a>
+                        <a href="contact-us" class="vw-btn-primary"><i class="icon-arrow-right"></i>Contact Us</a>
                       </div>
                     </div>
 
@@ -450,7 +406,7 @@
                         <div class="portfolio-card-text">
                           <p>We have extensive expertise in developing real estate websites, delivering high-quality solutions tailored to the industry's unique needs. Over the years, we have worked with numerous clients in the real estate sector, helping them establish a strong online presence. Our portfolio includes a wide range of successful real estate projects, from property listing platforms to interactive and dynamic websites that enhance user experience. With our deep understanding of real estate trends and requirements, we ensure our clients receive innovative, feature-rich, and scalable solutions that drive results.</p>
                         </div>
-                        <a href="contact.html" class="vw-btn-primary"><i class="icon-arrow-right"></i>Contact Us</a>
+                        <a href="contact-us" class="vw-btn-primary"><i class="icon-arrow-right"></i>Contact Us</a>
                       </div>
                       <div class="portfolio-card-thumb">
                         <a href="#"><img class="imageParallax3" src="assets/images/banner/real.png" alt="sparkmindscoders"></a>
@@ -565,7 +521,7 @@
               </div>
               <div class="col-md-4">
                 <div class="portfolio-more-btn contact-arrow-btn">
-                  <a href="contact.html"><i class="icon-arrow-tera"></i></a>
+                  <a href="contact-us"><i class="icon-arrow-tera"></i></a>
                 </div>
               </div>
             </div>
@@ -575,72 +531,7 @@
 
       </main>
       <!--footer start-->
-      <footer class="footer-area footer-area-2">
-        <div class="container">
-          <div class="footer-top">
-            <div class="row">
-              <div class="col-lg-3 col-md-6">
-                <div class="footer-logo">
-                  <img src="assets/images/banner/Screenshot_2024-10-05_113516-removebg-preview.png" alt="sparkmindscoders">
-                </div>
-                <div class="footer-widget">
-                  <ul class="footer-social">
-                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                    <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
-                    <li><a href="#"><i class="fa-brands fa-pinterest"></i></a></li>
-                  </ul>
-                </div>
-              </div>
-              <div class="col-lg-3 col-md-6">
-                <div class="footer-widget">
-                  <h6 class="footer-widget-title">Navigation</h6>
-                  <ul class="footer-widget-menu">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a href="blog.html">Blog</a></li>
-                    <li><a href="contact.html">Contact Us</a></li>
-                  </ul>
-                </div>
-              </div>
-              
-              <div class="col-lg-3 col-md-6">
-                <div class="footer-widget">
-                  <h6 class="footer-widget-title">Services</h6>
-                  <ul class="footer-widget-menu">
-                    <li><a href="website-development.html">Website Development</a></li>
-                    <li><a href="graphic-design.html">Graphice Designing</a></li>
-                    <!-- <li><a href="#">Digital Marketing</a></li> -->
-                    <li><a href="seo.html">Seo</a></li>
-                  </ul>
-                 
-                </div>
-              </div>
-              <div class="col-lg-3 col-md-6">
-                <div class="footer-widget">
-                  <h6 class="footer-widget-title">Contact</h6>
-                  <ul class="footer-contact-list">
-                    <li><a href="tel:+91 79777 91583">+91 79777 91583</a></li>
-                    <li><a href="tel:+91 87792 39431">+91 87792 39431</a></li>
-                    <li><a href="mailto:sparkmindscoders@gmail.com">sparkmindscoders@gmail.com</a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="footer-bottom">
-            <div class="container">
-              <div class="row">
-                <div class="col-12">
-                  <div class="footer-copyright">
-                    <p>2025 &copy; All Right Reserved by <a href="#">SparkMindsCoders</a></p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </footer>
+      <?php include("footer.php") ?>
       <!--footer-end-->
     </div>
   </div>

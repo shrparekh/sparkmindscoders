@@ -118,12 +118,12 @@
       <ul class="list-none">
 
       
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
+        <li><a href="/">Home</a></li>
+        <li><a href="about-us">About</a></li>
         <li><a href="service.html">Services</a></li>
-        <li><a href="portfolio.html">Portfolio</a></li>
-        <li><a href="blog.html">Blog</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="portfolio">Portfolio</a></li>
+        <li><a href="blog">Blog</a></li>
+        <li><a href="contact-us">Contact</a></li>
       </ul>
     </nav>
   </div>
@@ -141,7 +141,7 @@
                 <div class="header-inner">
                   <div class="header-left">
                     <div class="logo">
-                      <a href="index.html"><img
+                      <a href="/"><img
                           src="assets/images/banner/Screenshot_2024-10-05_113516-removebg-preview.png" alt="sparkmindscoders"></a>
                     </div>
                     <div class="menu-icon">
@@ -152,12 +152,12 @@
                   <div class="mainmenu home__three d-lg-block d-none">
                     <nav id="main-menus">
                       <ul class="list-none">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About</a></li>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="about-us">About</a></li>
                         <li><a href="service.html">Services</a></li>
-                        <li><a href="portfolio.html">Portfolio</a></li>
-                        <li><a href="blog.html">Blog</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="portfolio">Portfolio</a></li>
+                        <li><a href="blog">Blog</a></li>
+                        <li><a href="contact-us">Contact</a></li>
                       </ul>
                     </nav>
                   </div>
@@ -318,72 +318,7 @@
 
       </main>
       <!--footer start-->
-      <footer class="footer-area footer-area-2">
-        <div class="container">
-          <div class="footer-top">
-            <div class="row">
-              <div class="col-lg-3 col-md-6">
-                <div class="footer-logo">
-                  <img src="assets/images/logo.png" alt="sparkmindscoders">
-                </div>
-                <div class="footer-widget">
-                  <ul class="footer-social">
-                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                    <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
-                    <li><a href="#"><i class="fa-brands fa-pinterest"></i></a></li>
-                  </ul>
-                </div>
-              </div>
-              <div class="col-lg-3 col-md-6">
-                <div class="footer-widget">
-                  <h4 class="footer-widget-title">Navigation</h4>
-                  <ul class="footer-widget-menu">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Works</a></li>
-                    <li><a href="#">About</a></li>
-                  </ul>
-                </div>
-              </div>
-              <div class="col-lg-3 col-md-6">
-                <div class="footer-widget">
-                  <h4 class="footer-widget-title">Contact</h4>
-                  <ul class="footer-contact-list">
-                    <li>T : +001 234 5678</li>
-                    <li>F : +001 234 5678</li>
-                    <li>E : info@dsngrid.com</li>
-                  </ul>
-                </div>
-              </div>
-              <div class="col-lg-3 col-md-6">
-                <div class="footer-widget">
-                  <h4 class="footer-widget-title">Subscribe Now</h4>
-                  <div class="footer-subscribe">
-                    <p>I have been a loyal customer of this auto parts company for years and I cannot recommend . </p>
-                  </div>
-                  <div class="footer-subscribe-form">
-                    <form action="#">
-                      <input type="email" placeholder="Your Email..." id="emails" required="">
-                      <button class="subscribe_button" type="submit"><i class="fa fa-paper-plane" aria-hidden="true"></i></button>
-                    </form>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="footer-bottom">
-            <div class="container">
-              <div class="row">
-                <div class="col-12">
-                  <div class="footer-copyright">
-                    <p>2024 &copy; All Right Reserved by <a href="#">Valorwide</a></p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </footer>
+      <?php include("footer.php") ?>
       <!--footer-end-->
     </div>
   </div>
