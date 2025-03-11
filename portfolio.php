@@ -11,7 +11,7 @@
   <!-- Site Title -->
   <title>SparkMindsCoders | From Web Development to SEO – We’ve Got You Covered</title>
   <!-- Place favicon.ico in the root directory -->
-  <link rel="shortcut icon" type="image/x-icon" href="assets/images/fav-icon.png">
+  <link rel="shortcut icon" type="image/x-icon" href="assets/images/spark/sparkmindscoder-mainlogo.png">
 
   <!-- CSS here -->
   <link rel="stylesheet" href="assets/css/animate.min.css">

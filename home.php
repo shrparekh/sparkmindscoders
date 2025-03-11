@@ -39,7 +39,7 @@ $posts = getPosts($conn);
     content="website development, e-commerce websites, CMS development, CRM solutions, graphic design, SEO services, dynamic websites, static websites, digital marketing solutions">
   <meta name="author" content="SparkMindsCoders">
   <!-- Place favicon.ico in the root directory -->
-  <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon-16x16.png">
+  <link rel="shortcut icon" type="image/x-icon" href="assets/images/spark/sparkmindscoder-mainlogo.png">
 
   <!-- CSS here -->
   <link rel="stylesheet" href="assets/css/animate.min.css">
@@ -170,7 +170,7 @@ $posts = getPosts($conn);
             </li>
             <li><a href="graphic-design.html">Graphic Designs</a></li>
             <!-- <li><a href="digital-marketing.html">Digital Marketing</a></li> -->
-            <li><a href="index-3.html">Seo</a></li>
+            <li><a href="seo">Seo</a></li>
           </ul>
         </li>
         <li><a href="portfolio">Portfolio</a></li>
@@ -194,7 +194,7 @@ $posts = getPosts($conn);
             <div class="row align-items-center justify-content-end">
               <div class="col-xl-12">
                 <div class="banner-img">
-                  <img src="assets/images/banner/banner-3.jpg" alt="sparkmindscoders">
+                  <img src="assets/images/spark/banner-3.webp" alt="sparkmindscoders">
                 </div>
                 <div class="banner-3-text">
                   <h6 class="banner-title" id="bannerTitle">Innovative Solutions</h6>
