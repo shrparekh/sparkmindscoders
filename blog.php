@@ -361,16 +361,14 @@ $tags = Gettags();
         </div>
         <div class="footer-contact">
           <ul>
-            <li><i class="flaticon-location"></i> 2972 Westheimer Rd. Santa Ana, Illinois 937949</li>
-            <li>
-              <i class="flaticon-open"></i>
-              <a href="mailto:solarplus@gmail.com">Solarplus@gmail.com </a>
-              <a href="mailto:infosolarplus@gmail.com">infosolarplus@gmail.com</a>
-            </li>
-            <li>
-              <i class="flaticon-phone"></i><a href="tel:(1234)5678900">(1234)-567-8900 </a>
-              <a class="d-block" href="tel:1234567890000">123-456-7890000</a>
-            </li>
+            <li><i class="flaticon-location"></i> 1/3A-62 Parekh Niwas, Gazdar Street ,<br> Chira Bazar, Kalbadevi ,
+              Mumbai - 400002</li>
+
+
+            <li><a href="tel:+91 79777 91583">+91 79777 91583</a></li>
+            <li><a href="tel:+91 87792 39431">+91 87792 39431</a></li>
+            <li><a href="mailto:sparkmindscoders@gmail.com">sparkmindscoders@gmail.com</a></li>
+
           </ul>
         </div>
       </div>
@@ -379,28 +377,39 @@ $tags = Gettags();
           <h4 class="title">Social Icons</h4>
         </div>
         <ul>
-          <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
-          <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
-          <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-          <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-        </ul>
+              <li><a href="www.linkedin.com/in/sparkmindscoders-web-developers-a4a52732b" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+              <li><a href="https://wa.me/917977791583" target="_blank"><i class="fa-brands fa-whatsapp"></i></a></li>
+              <li><a href="https://www.instagram.com/sparkmindscoders?igsh=Z2JxM2VqaXpka3lp" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+              <li><a href="javascript:void(0)" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
+            </ul>
       </div>
       <div class="contact-map">
-        <iframe src="https://maps.google.com/maps?q=manhatan&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed"
-          style="border: 0" allowfullscreen=""></iframe>
+        
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3773.603485809877!2d72.82055496975708!3d18.948937216700553!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7ce18d924e25d%3A0x7c946d7f2d03b15c!2sParekh%20Niwas%2C%20Jagannath%20Shankar%20Seth%20Rd%2C%20Tad%20Wadi%2C%20Marine%20Lines%2C%20Mumbai%2C%20Maharashtra%20400002!5e0!3m2!1sen!2sin!4v1739242570167!5m2!1sen!2sin"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                            </div>
+
       </div>
     </div>
   </div>
   <!-- end: Offcanvas Area -->
 
   <div class="mainmenu d-none">
-    <nav id="main-menu">
+  <nav id="main-menu">
       <ul class="list-none">
 
 
         <li><a href="/">Home</a></li>
         <li><a href="about-us">About</a></li>
-        <li><a href="service.html">Services</a></li>
+        <li class="has-dropdown current-menu-item">
+          <a href="/">Services</a>
+          <ul class="sub-menu">
+            <li class="current-menu-item">
+              <a href="website-development">Website Development</a>
+            </li>
+            <li><a href="graphic-design.html">Graphic Designs</a></li>
+            <!-- <li><a href="digital-marketing.html">Digital Marketing</a></li> -->
+            <li><a href="seo">Seo</a></li>
+          </ul>
+        </li>
         <li><a href="portfolio">Portfolio</a></li>
         <li><a href="blog">Blog</a></li>
         <li><a href="contact-us">Contact</a></li>
@@ -414,41 +423,7 @@ $tags = Gettags();
       <main id="primary" class="site-main">
 
         <!--header-area-start-->
-        <header id="header-sticky" class="header-area header-area-3">
-          <div class="container-fluid">
-            <div class="row">
-              <div class="col-12">
-                <div class="header-inner">
-                  <div class="header-left">
-                    <div class="logo">
-                      <a href="/"><img src="/assets/images/banner/Screenshot_2024-10-05_113516-removebg-preview.png"
-                          alt="sparkmindscoders"></a>
-                    </div>
-                    <div class="menu-icon">
-                      <a class="canva_expander nav-menu-link menu-button style-2" href="#"><i
-                          class="icon-menu-icon-2"></i></a>
-                    </div>
-                  </div>
-                  <div class="mainmenu home__three d-lg-block d-none">
-                    <nav id="main-menus">
-                      <ul class="list-none">
-                        <li><a href="/">Home</a></li>
-                        <li><a href="about-us">About</a></li>
-                        <li><a href="service.html">Services</a></li>
-                        <li><a href="portfolio">Portfolio</a></li>
-                        <li><a href="blog">Blog</a></li>
-                        <li><a href="contact-us">Contact</a></li>
-                      </ul>
-                    </nav>
-                  </div>
-                  <div class="header-right">
-                    <a href="#" class="vw-btn-primary"><i class="icon-arrow-right"></i> Get In Touch</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </header>
+        <?php include("navbar.php") ?>
         <!--header-area-end-->
 
         <!--page-banner-area start-->
@@ -458,7 +433,7 @@ $tags = Gettags();
               <div class="col-12">
                 <div class="page-banner-title">
                   <ul class="breadcrumbs">
-                    <li><a href="#">Home</a></li>
+                    <li><a href="/">Home</a></li>
                     <li>Blog </li>
                   </ul>
                   <h2 class="page-banner-heading">Blog </h2>
@@ -676,24 +651,7 @@ $tags = Gettags();
       <!--footer-end-->
     </div>
   </div>
-  <!-- start: Scroll Area -->
-  <div class="scroll-top">
-    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
-      <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" style="
-                    transition: stroke-dashoffset 10ms linear 0s;
-                    stroke-dasharray: 307.919px, 307.919px;
-                    stroke-dashoffset: 71.1186px;
-                "></path>
-    </svg>
-    <div class="scroll-top-icon">
-      <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="1em" height="1em" viewBox="0 0 24 24"
-        data-icon="mdi:arrow-up" class="iconify iconify--mdi">
-        <path fill="currentColor" d="M13 20h-2V8l-5.5 5.5l-1.42-1.42L12 4.16l7.92 7.92l-1.42 1.42L13 8v12Z">
-        </path>
-      </svg>
-    </div>
-  </div>
-  <!-- end: Scroll Area -->
+  <?php include("stickybtn.php") ?>
 
   <!--================================
       CURSOR START

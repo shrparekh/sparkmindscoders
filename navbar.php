@@ -36,7 +36,7 @@
                     </nav>
                   </div>
                   <div class="header-right">
-                    <a href="#" class="vw-btn-primary"><i class="icon-arrow-right"></i> Get In Touch</a>
+                    <a href="tel:+91 79777 91583" class="vw-btn-primary"><i class="icon-arrow-right"></i> +917977791583</a>
                   </div>
                 </div>
               </div>

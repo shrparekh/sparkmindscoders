@@ -8,9 +8,9 @@
                 </div>
                 <div class="footer-widget">
                   <ul class="footer-social">
-                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                    <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
-                    <li><a href="#"><i class="fa-brands fa-pinterest"></i></a></li>
+                    <li><a href="javascript:void(0)" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li><a href="www.linkedin.com/in/sparkmindscoders-web-developers-a4a52732b" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+                    <li><a href="https://www.instagram.com/sparkmindscoders?igsh=Z2JxM2VqaXpka3lp" target="_blank"><i class="fab fa-instagram"></i></a></li>
                   </ul>
                 </div>
               </div>

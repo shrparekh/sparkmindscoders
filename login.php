@@ -19,10 +19,10 @@ if (isset($_SESSION["user_id"])) {
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <meta name="description" content="Responsive Bootstrap 4 and web Application ui kit.">
 
-    <title> IERIX INFOTECH || Sign In</title>
+    <title> SparkMindsCoders || Sign In</title>
     <!-- Favicon-->
     <link rel="icon"
-        href="/admin/assets/images/ierix-infotech-digitalmarketing-company-and-agency-in-thane-mumbai-navi-mumbai.svg"
+        href="assets/images/spark/sparkmindscoder-mainlogo.png"
         type="image/x-icon">
     <link rel="stylesheet" href="/admin/assets/plugins/bootstrap/css/bootstrap.min.css">
     <script src="https://kit.fontawesome.com/c80ce35b53.js" crossorigin="anonymous" defer></script>
@@ -40,33 +40,32 @@ if (isset($_SESSION["user_id"])) {
                     <div class="col-lg-6 col-md-12">
                         <div class="company_detail">
                             <h4 class="logo"><img
-                                    src="/admin/assets/images/LOGO/ierix-infotech-digitalmarketing-company-and-agency-in-thane-mumbai-navi-mumbai.png"
-                                    alt="ierix-infotech"></h4>
-                            <h3><strong>IERIX INFOTECH:</strong> Elevating Brands, Amplifying Success</h3>
+                                    src="/assets/images/banner/Screenshot_2024-10-05_113516-removebg-preview.png"
+                                    alt="sparkmindscoders"></h4>
+                            <h3><strong>SparkMindsCoders:</strong> Elevating Brands, Amplifying Success</h3>
                             <p class="text-justify">Elevate your brand's online presence with our expert digital
                                 marketing and web design solutions.Elevate your brand's online presence with our expert
                                 digital marketing and web design solutions.</p>
                             <div class="footer">
                                 <ul class="social_link list-unstyled">
-                                    <li><a href="https://www.facebook.com/ierixxinfotech" target="_blank"><i
+                                    <li><a href="javascript:void(0)" target="_blank"><i
                                                 class="fab fa-facebook"></i></a></li>
-                                    <li><a href="https://youtube.com/@ierixinfotech?si=N49a4U21hkHfynAj"
-                                            target="_blank"><i class="fab fa-youtube"></i></a></li>
-                                    <li><a href="https://www.instagram.com/ierix_infotech_/" target="_blank"><i
+                                    
+                                    <li><a href="https://www.instagram.com/sparkmindscoders?igsh=Z2JxM2VqaXpka3lp" target="_blank"><i
                                                 class="fab fa-instagram"></i></a></li>
-                                    <li> <a href="https://www.linkedin.com/company/ierix-infotech-pvt-ltd/"
+                                    <li> <a href="www.linkedin.com/in/sparkmindscoders-web-developers-a4a52732b"
                                             target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
-                                    <li> <a href="https://twitter.com/ierix_infotech" target="_blank"><i
+                                    <li> <a href="javascript:void(0)" target="_blank"><i
                                                 class="fab fa-twitter"></i></a></li>
 
                                 </ul>
                                 <hr>
                                 <ul>
-                                    <li><a href="https://ierixinfotech.com/contact-us" target="_blank">Contact Us</a>
+                                    <li><a href="https://sparkmindscoders.com/contact-us" target="_blank">Contact Us</a>
                                     </li>
-                                    <li><a href="https://ierixinfotech.com/about-us" target="_blank">About Us</a></li>
-                                    <li><a href="https://ierixinfotech.com/services" target="_blank">Services</a></li>
-                                    <li><a href="https://ierixinfotech.com/faq">FAQ</a></li>
+                                    <li><a href="https://sparkmindscoders.com/about-us" target="_blank">About Us</a></li>
+                                    <li><a href="https://sparkmindscoders.com/portfolio" target="_blank">Portfolio</a></li>
+                                    <li><a href="https://sparkmindscoders.com/website-development">Service</a></li>
                                 </ul>
                             </div>
                         </div>

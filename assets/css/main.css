@@ -1,24 +1,4 @@
-/*-----------------------------------------------------------------------------------
 
-    Theme Name: ZenZap
-    Author: Valorwide
-    Support: support@starter.com
-    Description: Starter - Starter HTML5 Template
-    Version: 1.0
-
------------------------------------------------------------------------------------
-
-
-/************ TABLE OF CONTENTS ***************
-
-  01. Theme Default CSS
-  02. background CSS
-	03. buttons css
-
-**********************************************/
-/**----------------------------------------
-START: Theme Default CSS
-----------------------------------------*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap");
 @-webkit-keyframes typing {
   from {
@@ -573,13 +553,13 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1;
   text-transform: uppercase;
   font-weight: 500;
   color: var(--vw-color-common-white);
-  padding: 10px 15px;
-  gap: 8px;
+  padding: 10px 13px;
+  gap: 5px;
   border-radius: 60px;
 }
 .vw-btn-primary:hover {
@@ -591,11 +571,12 @@ img {
 }
 .vw-btn-primary i {
   background-color: #1CCE41;
-  width: 25px;
-  height: 25px;
+  width: 22px;
+  height: 22px;
   border-radius: 100%;
   text-align: center;
-  line-height: 25px;
+  line-height: 22px;
+
 }
 
 .vw-btn-green {
@@ -1649,7 +1630,9 @@ Mainmenu
   font-weight: 500;
   color: #ffffff;
 }
-
+.mainmenu ul li a:hover{
+  color: #009A00;
+}
 /**----------------------------------------
 Header 2 CSS
 ----------------------------------------*/
@@ -4299,6 +4282,8 @@ Portfolio Area 3 CSS
   transition: 0.6s;
   overflow: hidden;
   margin-top: 30px;
+  border: 2px solid #fff;
+  padding: 5px;
 }
 .single-portfolio::before {
   background-color: rgba(0, 0, 0, 0.75);
@@ -6552,9 +6537,12 @@ Footer CSS
 .footer-widget .footer-social li a {
   color: #ffffff;
 }
+.footer-widget ul li:hover{
+  color: #009A00;
+}
 @media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px) {
   .footer-widget ul li {
-    letter-spacing: 0.15em;
+    letter-spacing: 0.12em;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
@@ -7626,13 +7614,13 @@ p.text__three {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.6); /* Dark overlay */
-  opacity: 0;
+  background: rgba(0, 0, 0, 0.3); /* Dark overlay */
+  opacity: 1;
   transition: opacity 0.3s ease-in-out;
 }
 
 .overlay-container:hover .overlay {
-  opacity: 1;
+  background: rgba(0, 0, 0, 0.6);
 }
 
 .overlay-container:hover img {
@@ -7668,4 +7656,91 @@ p.text__three {
 }
 .kcresst-content p{
   text-align: justify;
+}
+
+
+.sticky-buttons {
+  position: fixed;
+  right: 0;
+  bottom: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  z-index: 20;
+
+}
+
+.sticky-buttons a {
+  padding: 10px 20px;
+  background-color: #1CCE41; /* Dark red color */
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+}
+.sticky-buttons :hover{
+ background-color:#fff;
+ color: #000;
+}
+.sticky-buttons a span{
+  display: none;
+}
+/* Hide WhatsApp button on desktop */
+.whatsapp-btn {
+  display: none;
+}
+
+/* Mobile Styles */
+@media (max-width: 700px) {
+  .sticky-buttons {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px ;
+    background-color: #000; /* Background color for mobile */
+    border-top: 1px solid #000004; /* Border for separation */
+    z-index: 20;
+    font-size: 15px;
+  }
+  .sticky-buttons a {
+    flex: 1;
+    padding: 10px 0px;
+  }
+  .sticky-buttons a span{
+    display: inline-block;
+    padding-left: 5px;
+  }
+  /* Show WhatsApp button on mobile */
+  .whatsapp-btn {
+    display: inline-block;
+  }
+}
+@media (max-width: 390px) {
+  .sticky-buttons {
+    left: 0;
+    bottom: 0;
+    width: 95%;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px 0;
+    background-color: #000; /* Background color for mobile */
+    border-top: 1px solid #000004; /* Border for separation */
+    z-index: 20;
+    font-size: 14px;
+    margin: 0 7px;
+  }
+
+  .sticky-buttons span{
+    font-size: 14px;
+    padding-left: 5px;
+  }
+}
+@media (max-width: 360px){
+  .sticky-buttons span{
+    font-size: 12px;
+    padding-left: 5px;
+  }
 }

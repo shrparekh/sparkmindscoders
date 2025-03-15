@@ -63,54 +63,55 @@
   <!-- start: Offcanvas Area -->
   <div id="vw-overlay-bg" class="vw-overlay-canvas"></div>
   <div class="vw-offcanvas-area">
-      <div class="vw-offcanvas-header d-flex align-items-center justify-content-between">
-          <div class="offcanvas-icon">
-              <a id="canva_close" href="#">
-                  <i class="fa-light fa-xmark"></i>
-              </a>
-          </div>
+    <div class="vw-offcanvas-header d-flex align-items-center justify-content-between">
+      <div class="offcanvas-icon">
+        <a id="canva_close" href="#">
+          <i class="fa-light fa-xmark"></i>
+        </a>
       </div>
-      <!-- Canvas Mobile Menu start -->
-      <nav class="right_menu_togle mobile-navbar-menu" id="mobile-navbar-menu"></nav>
+    </div>
+    <!-- Canvas Mobile Menu start -->
+    <nav class="right_menu_togle mobile-navbar-menu" id="mobile-navbar-menu"></nav>
 
-      <div class="canvas-content-area d-none d-lg-block">
-          <div class="contact-info-list">
-              <p class="des">
-                  We take a bottom-line approach to each project. Our clients consistently, enhanced brand loyalty
-                  and new leads thanks to our work.
-              </p>
-              <div class="canvas-title">
-                  <h4 class="title">Contact info</h4>
-              </div>
-              <div class="footer-contact">
-                  <ul>
-                      <li><i class="flaticon-location"></i> 1/3A-62 Parekh Niwas, Gazdar Street ,<br> Chira Bazar, Kalbadevi , Mumbai - 400002</li>
-                      
-                      
-                        <li><a href="tel:+91 79777 91583">+91 79777 91583</a></li>
-                        <li><a href="tel:+91 87792 39431">+91 87792 39431</a></li>
-                        <li><a href="mailto:sparkmindscoders@gmail.com">sparkmindscoders@gmail.com</a></li>
-                      
-                  </ul>
-              </div>
-          </div>
-          <div class="offcanvas-share">
-              <div class="canvas-title">
-                  <h6 class="title">Social Icons</h6>
-              </div>
-              <ul>
-                <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
-                <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
-                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-              </ul>
-          </div>
-          <div class="contact-map">
-              <iframe
-                  src="https://maps.google.com/maps?q=manhatan&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed"
-                  style="border: 0" allowfullscreen=""></iframe>
-          </div>
+    <div class="canvas-content-area d-none d-lg-block">
+      <div class="contact-info-list">
+        <p class="des">
+          We take a bottom-line approach to each project. Our clients consistently, enhanced brand loyalty
+          and new leads thanks to our work.
+        </p>
+        <div class="canvas-title">
+          <h4 class="title">Contact info</h4>
+        </div>
+        <div class="footer-contact">
+          <ul>
+            <li><i class="flaticon-location"></i> 1/3A-62 Parekh Niwas, Gazdar Street ,<br> Chira Bazar, Kalbadevi ,
+              Mumbai - 400002</li>
+
+
+            <li><a href="tel:+91 79777 91583">+91 79777 91583</a></li>
+            <li><a href="tel:+91 87792 39431">+91 87792 39431</a></li>
+            <li><a href="mailto:sparkmindscoders@gmail.com">sparkmindscoders@gmail.com</a></li>
+
+          </ul>
+        </div>
       </div>
+      <div class="offcanvas-share">
+        <div class="canvas-title">
+          <h4 class="title">Social Icons</h4>
+        </div>
+        <ul>
+              <li><a href="www.linkedin.com/in/sparkmindscoders-web-developers-a4a52732b" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+              <li><a href="https://wa.me/917977791583" target="_blank"><i class="fa-brands fa-whatsapp"></i></a></li>
+              <li><a href="https://www.instagram.com/sparkmindscoders?igsh=Z2JxM2VqaXpka3lp" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+              <li><a href="javascript:void(0)" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
+            </ul>
+      </div>
+      <div class="contact-map">
+        
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3773.603485809877!2d72.82055496975708!3d18.948937216700553!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7ce18d924e25d%3A0x7c946d7f2d03b15c!2sParekh%20Niwas%2C%20Jagannath%20Shankar%20Seth%20Rd%2C%20Tad%20Wadi%2C%20Marine%20Lines%2C%20Mumbai%2C%20Maharashtra%20400002!5e0!3m2!1sen!2sin!4v1739242570167!5m2!1sen!2sin"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                            </div>
+
+      </div>
+    </div>
   </div>
   <!-- end: Offcanvas Area -->
 
@@ -400,24 +401,7 @@
       <!--footer-end-->
     </div>
   </div>
-  <!-- start: Scroll Area -->
-  <div class="scroll-top">
-    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
-        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" style="
-                    transition: stroke-dashoffset 10ms linear 0s;
-                    stroke-dasharray: 307.919px, 307.919px;
-                    stroke-dashoffset: 71.1186px;
-                "></path>
-    </svg>
-    <div class="scroll-top-icon">
-        <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="1em" height="1em"
-            viewBox="0 0 24 24" data-icon="mdi:arrow-up" class="iconify iconify--mdi">
-            <path fill="currentColor" d="M13 20h-2V8l-5.5 5.5l-1.42-1.42L12 4.16l7.92 7.92l-1.42 1.42L13 8v12Z">
-            </path>
-        </svg>
-    </div>
-  </div>
-  <!-- end: Scroll Area -->
+  <?php include("stickybtn.php") ?>
 
   <!--================================
       CURSOR START
