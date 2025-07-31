@@ -9,7 +9,7 @@
   <meta name="description" content="">
 
   <!-- Site Title -->
-  <title>SparkMindsCoders | From Web Development to SEO – We’ve Got You Covered</title>
+  <title>sparkmindscoders: Expert Freelance Web Developer & Designer in Mumbai | CMS & CRM | Dynamic & E-commerce Solutions</title>
 
   <!-- Place favicon.ico in the root directory -->
   <link rel="shortcut icon" type="image/x-icon" href="assets/images/spark/sparkmindscoder-mainlogo.png">

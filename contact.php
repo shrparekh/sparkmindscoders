@@ -9,7 +9,7 @@
   <meta name="description" content="">
 
   <!-- Site Title -->
-  <title>SparkMindsCoders | From Web Development to SEO – We’ve Got You Covered</title>
+  <title>sparkmindscoders: Expert Freelance Web Developer & Designer in Mumbai | CMS & CRM | Dynamic & E-commerce Solutions</title>
 
   <!-- Place favicon.ico in the root directory -->
   <link rel="shortcut icon" type="image/x-icon" href="assets/images/spark/sparkmindscoder-mainlogo.png">
@@ -175,7 +175,7 @@
                         <div class="address__block">
                           <img src="assets/images/spark/placeholder.png" class="flipFlop" alt="sparkmindscoders">
                             <h4> Address</h4>
-                            <p>1/3A-62 Parekh Niwas,<br> Gazdar Street , Chira Bazar, Kalbadevi , Mumbai - 400002</p>
+                            <p>62, Floor-3, Parekh Niwas, plot-1/3, Gazdar St, Marine Lines East, Chira Bazaar, Kalbadevi, Mumbai, Maharashtra 400002</p>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-12 contact-a">
@@ -246,7 +246,8 @@
                         </div>
                         <div class="col-lg-6 col-md-12 p-0">
                             <div class="google__map">
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3773.603485809877!2d72.82055496975708!3d18.948937216700553!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7ce18d924e25d%3A0x7c946d7f2d03b15c!2sParekh%20Niwas%2C%20Jagannath%20Shankar%20Seth%20Rd%2C%20Tad%20Wadi%2C%20Marine%20Lines%2C%20Mumbai%2C%20Maharashtra%20400002!5e0!3m2!1sen!2sin!4v1739242570167!5m2!1sen!2sin" width="600" height="800" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                            </div>
+                              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3773.603599249514!2d72.820662288855!3d18.9489322!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7cf50059a8b63%3A0x696b582dce79d137!2sSparkMindsCoders!5e0!3m2!1sen!2sin!4v1753709143058!5m2!1sen!2sin" width="600" height="800" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+             </div>
                         </div>
                     </div>
                 </div>

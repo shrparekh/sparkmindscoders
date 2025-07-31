@@ -32,7 +32,7 @@ $posts = getPosts($conn);
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Site Title -->
-  <title>SparkMindsCoders | From Web Development to SEO – We’ve Got You Covered</title>
+  <title>sparkmindscoders: Expert Freelance Web Developer & Designer in Mumbai | CMS & CRM | Dynamic & E-commerce Solutions</title>
   <meta name="description"
     content="SparkMindCoder specializes in website development, including e-commerce, CMS, CRM, static, and dynamic websites. We also offer professional graphic design and SEO services to elevate your business.">
   <meta name="keywords"
@@ -324,15 +324,121 @@ $posts = getPosts($conn);
 
         <!--big-heading start-->
         <div class="big-heading-area pb-55">
-          <div class="big-heading-list">
-            <h6 class="big-heading-stroke"><span class="stroke-heading">WHY</span> <img
-                src="assets/images/web/Untitled_design__7_-removebg-preview.png" alt="sparkmindscoders"></h6>
+          <section class="about-one">
+            <div class="container">
+                <div class="row">
+                   
+                    <div class="col-lg-5 mr-2">
+                      <div class="section-title section-title-client">
+                    <h5 class="section-subtitle"><span>INDUSTRIES WE WORK FOR</span> <img
+                        src="assets/images/about/subtitle-line.svg" alt="sparkmindscoders"></h5>
+                    <h3 class="section-heading">Helping Businesses in All Domains</h3>
+                    <span class="shadow-title">Businesses</span>
+                    <div class="section-title-para">
+                      <p>Our mission at Ierix Infotech Private Limited is to empower businesses across industries like Real Estate, Legal Services, Finance, Insurance, Travel, Spa Salons, Education, Hospitality, Logistics, Medical, Affiliate Marketing,
+                                and Event Management.</p>
+                      <p>We provide tailored digital marketing strategies to meet your unique needs and goals. With offices in Bangalore and Mumbai, we are here to help you succeed online. Let's grow together!</p>
+                    </div>
+                    <a href="contact-us" class="vw-btn-primary section-title-btn"><i class="icon-arrow-right"></i>
+                      Contact Us</a>
+                  </div>
+                      
+                     
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="work-card-set ">
+                            <div class="icon-set wow fadeIn" data-wow-delay=".1s">
+                                <div class="work-card cd1">
+                                    <div class="icon-bg">
+                                        <img src="assets/images/spark/buliding.png" alt="Real Estate" title="Real Estate" class="img-fluid" />
+                                    </div>
+                                    <p class="text-light ">Real Estate</p>
+                                </div>
+                            </div>
+                            <div class="icon-set wow fadeIn" data-wow-delay=".12s">
+                                <div class="work-card cd2">
+                                    <div class="icon-bg"><img src="assets/images/spark/compliant.png" alt="Legal Services" title="Legal Services" class="img-fluid" />
+                                    </div>
+                                    <p class="text-light ">Legal Services</p>
+                                </div>
+                            </div>
+                            <div class="icon-set wow fadeIn" data-wow-delay=".13s">
+                                <div class="work-card cd3">
+                                    <div class="icon-bg"><img src="assets/images/spark/budget.png" alt="Finance" class="img-fluid" title="Finance" />
+                                    </div>
+                                    <p class="text-light ">Finance</p>
+                                </div>
+                            </div>
+                            <div class="icon-set wow fadeIn" data-wow-delay=".14s">
+                                <div class="work-card cd4">
+                                    <div class="icon-bg"><img src="assets/images/spark/insurance.png" alt="Insurance" class="img-fluid" title="Insurance" />
+                                    </div>
+                                    <p class="text-light ">Insurance</p>
+                                </div>
+                            </div>
+                            <div class="icon-set wow fadeIn" data-wow-delay=".15s">
+                                <div class="work-card cd5">
+                                    <div class="icon-bg"><img src="assets/images/spark/travel-agent.png" alt="Travel" class="img-fluid" titie="Travel" />
+                                    </div>
+                                    <p class="text-light ">Travel</p>
+                                </div>
+                            </div>
+                            <div class="icon-set wow fadeIn" data-wow-delay=".16s">
+                                <div class="work-card cd6">
+                                    <div class="icon-bg"><img src="assets/images/spark/saloon.png" alt="Spa Saloon" class="img-fluid" title="Spa Saloon" />
+                                    </div>
+                                    <p class="text-light ">Spa Saloon</p>
+                                </div>
+                            </div>
+                            <div class="icon-set wow fadeIn" data-wow-delay=".17s">
+                                <div class="work-card cd7">
+                                    <div class="icon-bg"><img src="assets/images/spark/graduation.png" alt=" Education" class="img-fluid" title="Education" />
+                                    </div>
+                                    <p class="text-light ">Education </p>
+                                </div>
+                            </div>
+                            <div class="icon-set wow fadeIn" data-wow-delay=".18s">
+                                <div class="work-card cd8">
+                                    <div class="icon-bg"><img src="assets/images/spark/shopping.png" alt="Hospitality" class="img-fluid" title="Hospitality" />
+                                    </div>
+                                    <p class="text-light ">Ecommerce</p>
+                                </div>
+                            </div>
+                            <div class="icon-set wow fadeIn" data-wow-delay=".19s">
+                                <div class="work-card cd9">
+                                    <div class="icon-bg"><img src="assets/images/spark/hospitality.png" alt="Logistic" class="img-fluid" title="Logistic " />
+                                    </div>
+                                    <p class="text-light ">Hospitality</p>
+                                    
+                                </div>
+                            </div>
+                            <div class="icon-set wow fadeIn" data-wow-delay=".2s">
+                                <div class="work-card cd10">
+                                    <div class="icon-bg"><img src="assets/images/spark/medical-report.png" alt="Medical" class="img-fluid" title="Medical" />
+                                    </div>
+                                    <p class="text-light ">Medical </p>
+                                </div>
+                            </div>
+                            <div class="icon-set wow fadeIn" data-wow-delay=".21s">
+                                <div class="work-card cd11">
+                                    <div class="icon-bg"><img src="assets/images/spark/social-network.png" alt="Affilate Markeing" class="img-fluid" title="Affilate Markeing" />
+                                    </div>
+                                    <p class="text-light ">Affilate Markeing</p>
+                                </div>
+                            </div>
+                            <div class="icon-set wow fadeIn" data-wow-delay=".22s">
+                                <div class="work-card cd11">
+                                    <div class="icon-bg"><img src="assets/images/spark/people.png" alt="Event Management" class="img-fluid" title="Event Management" />
+                                    </div>
+                                    <p class="text-light ">Event Management</p>
+                                </div>
+                            </div>
+                        </div>
 
-            <h6 class="big-heading-stroke">DO<span class="stroke-heading">WE NEED</span> <img
-                src="assets/images/web/Untitled_design__8_-removebg-preview.png" alt="sparkmindscoders"></h6>
-
-            <h6 class="big-heading-stroke">WEBSITE <span class="thin-heading"> </span></h6>
-          </div>
+                    </div>
+                </div>
+            </div>
+        </section>
         </div>
         <!--big-heading end-->
 

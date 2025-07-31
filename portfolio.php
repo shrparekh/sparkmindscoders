@@ -9,7 +9,7 @@
   <meta name="description" content="">
 
   <!-- Site Title -->
-  <title>SparkMindsCoders | From Web Development to SEO – We’ve Got You Covered</title>
+  <title>sparkmindscoders: Expert Freelance Web Developer & Designer in Mumbai | CMS & CRM | Dynamic & E-commerce Solutions</title>
   <!-- Place favicon.ico in the root directory -->
   <link rel="shortcut icon" type="image/x-icon" href="assets/images/spark/sparkmindscoder-mainlogo.png">
 
@@ -217,7 +217,7 @@
                       </ul> 
                       <h3 class="single-portfolio-title"><a href="http://nmmg.in/" target="_blank" rel="noopener noreferrer">NAVI MUMBAI <br/> <span class="thin-text">MERCHANT'S GYMKHANA</span></a></h3>
                     </div>
-                    <span class="portfolio-number">03</span>
+                    <span class="portfolio-number">02</span>
                   </div>
                 </div>
                 <div class="col-md-6">
@@ -242,7 +242,7 @@
                       </ul>
                       <h3 class="single-portfolio-title"><a href="https://emperiac2.co.in/" target="_blank" rel="noopener noreferrer">EMPERIA C2 <br/></a></h3>
                     </div>
-                    <span class="portfolio-number">02</span>
+                    <span class="portfolio-number">03</span>
                   </div>
                 </div>
                 <div class="col-md-6">
@@ -312,6 +312,91 @@
                       <h3 class="single-portfolio-title"><a href="https://chalet.sparkmindscoders.com/" target="_blank" rel="noopener noreferrer">Chalet</a></h3>
                     </div>
                     <span class="portfolio-number">06</span>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="single-portfolio">
+                
+                    <div class="single-portoflio-thumb imageParallax2">
+                      <a href="https://cmaplayschool.com/" target="_blank" rel="noopener noreferrer">
+                        <div class="overlay-container">
+                          <img src="assets/images/spark/cma.png" alt="sparkmindscoders">
+                          <div class="overlay"></div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="single-portfolio-desc">
+                      <ul class="list-none portfolio-categories">
+                        <li><a href="https://cmaplayschool.com/" target="_blank" rel="noopener noreferrer">Website</a></li>
+                        
+                      </ul>
+                      <h3 class="single-portfolio-title"><a href="https://cmaplayschool.com/" target="_blank" rel="noopener noreferrer">CHEERFUL MIND ACADEMY</a></h3>
+                    </div>
+                    <span class="portfolio-number">07</span>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="single-portfolio">
+                
+                    <div class="single-portoflio-thumb imageParallax2">
+                      <a href="https://trophyhouse.store/" target="_blank" rel="noopener noreferrer">
+                        <div class="overlay-container">
+                          <img src="assets/images/spark/trophy.png" alt="sparkmindscoders">
+                          <div class="overlay"></div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="single-portfolio-desc">
+                      <ul class="list-none portfolio-categories">
+                        <li><a href="https://trophyhouse.store/" target="_blank" rel="noopener noreferrer">Website</a></li>
+                        
+                      </ul>
+                      <h3 class="single-portfolio-title"><a href="https://trophyhouse.store/" target="_blank" rel="noopener noreferrer">TROPHY HOUSE</a></h3>
+                    </div>
+                    <span class="portfolio-number">08</span>
+                  </div>
+                </div>
+
+                <div class="col-md-6">
+                  <div class="single-portfolio">
+                
+                    <div class="single-portoflio-thumb imageParallax2">
+                      <a href="https://sovereinhill.co.in/" target="_blank" rel="noopener noreferrer">
+                        <div class="overlay-container">
+                          <img src="assets/images/spark/abimaan.png" alt="sparkmindscoders">
+                          <div class="overlay"></div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="single-portfolio-desc">
+                      <ul class="list-none portfolio-categories">
+                        <li><a href="https://sovereinhill.co.in/" target="_blank" rel="noopener noreferrer">Website</a></li>
+                        
+                      </ul>
+                      <h3 class="single-portfolio-title"><a href="https://sovereinhill.co.in/" target="_blank" rel="noopener noreferrer"> SOVEREIN HILL</a></h3>
+                    </div>
+                    <span class="portfolio-number">09</span>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="single-portfolio">
+                
+                    <div class="single-portoflio-thumb imageParallax2">
+                      <a href="https://abhimaandeveloper.com/" target="_blank" rel="noopener noreferrer">
+                        <div class="overlay-container">
+                          <img src="assets/images/spark/hill.png" alt="sparkmindscoders">
+                          <div class="overlay"></div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="single-portfolio-desc">
+                      <ul class="list-none portfolio-categories">
+                        <li><a href="https://abhimaandeveloper.com/" target="_blank" rel="noopener noreferrer">Website</a></li>
+                        
+                      </ul>
+                      <h3 class="single-portfolio-title"><a href="https://abhimaandeveloper.com/" target="_blank" rel="noopener noreferrer">ABHIMAAN DEVELOPERS</a></h3>
+                    </div>
+                    <span class="portfolio-number">10</span>
                   </div>
                 </div>
                 
